@@ -1,0 +1,174 @@
+﻿Annotation by Jay-Miguel Fonticella
+Last Update 3/17/21
+
+
+________________
+
+
+
+
+@Paper Transcriptomic analysis reveals protein homeostasis breakdown in the coral Acropora millepora during hypo-saline stress
+@Paper-Link https://doi.org/10.1186/s12864-019-5527-2
+
+
+@Journal BMC Genomics
+@Journal-Volume 20
+@Journal-Issue 148
+
+
+@Date 2018-09-05:00:00:00
+@Date-Note Received
+
+
+@Date 2019-02-13:00:00:00
+@Date-Note Accepted
+
+
+@Date 2013-02-20:00:00:00
+@Date-Note Published
+
+
+@Contributor Catalina Aguilar
+@Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
+@Contributor-Role First Author
+@Contributor-Type Individual
+
+
+@Contributor Jean-Baptiste Raina
+@Contributor-Association AIMS@JCU and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Sylvain Fôret
+@Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor David C. Hayward
+@Contributor-Association Division of Ecology and Evolution, Research School of Biology, Australian National University, Canberra, ACT, 2601, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Bruno Lapeyre
+@Contributor-Association Laboratoire d’excellence CORAIL, Centre de Recherches Insulaires et Observatoire de l’Environnement (CRIOBE), Moorea, B.P.1013, Papeete, French Polynesia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor David G. Bourne
+@Contributor-Association Australian Institute of Marine Science, Townsville, Queensland, 4810, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor David J. Miller
+@Contributor-Association IMS@JCU and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
+@Contributor-Role Last Author
+@Contributor-Type Individual
+
+
+@Contributor Victor Beltran
+@Contributor-Note Technical support
+@Contributor-Type Individual
+
+
+@Contributor Simon Davy
+@Contributor-Note permission to cite unpublished thesis results
+@Contributor-Type Individual
+
+
+@Contributor Andrew Negri
+@Contributor-Note Providing the coral larvae and extracts of crustose coralline algae, respectively, and assistance during the experiments
+@Contributor-Type Individual
+
+
+@Contributor AIMS@JCU scholarship
+@Contributor-Type Funding
+
+
+@Keyword Coral
+@Keyword Transcriptomics
+@Keyword Salinity stress
+@Keyword Endoplasmic reticulum
+@Keyword Amino acid metabolism
+
+
+@Species Acropora millepora
+@Species-Reef Orpheus Island
+@Species-Loc Queensland, Australia
+@Species-Note 18°39′52. 43″S, 146°29′42.38″E
+
+
+@Method Ambient and control salinity treatment
+@Method-Type Treatment
+
+
+@Method RNAqueous-Micro total RNA isolation kit (AM1931, AMBION)
+@Method-Type RNA extraction
+
+
+@Method Bioanalyzer (Agilent 2100 Bioanalyzer)
+@Method-Type Quality and quantity analyzer
+
+
+@Method NEB Next Ultra Directional RNA Library Prep Kit for Illumina
+@Method-Type RNAseq library construction
+@Method-Note Following the manufacturers recommended protocol and 100 bp paired-end sequence data obtained using a HiSeq 2000 at the Biomolecular Resource Facility
+
+
+@Method HiSeq 2000 at the Biomolecular Resource Facility
+@Method-Type 100 bp paired-end sequence data
+
+
+@Software Cytoscape
+@Software-Type Statistically overrepresented gene ontology (GO) categories were determined
+@Software-Version 3.1.1
+@Software-Note Use the hypergeometric test in BiNGO and a FDR significance level of < 0.01 on the set of genes that were differentially up- or down-regulated in each dataset 
+
+
+@Software arrayQualityMetrics
+@Software-Type RNAseq read count matrix
+@Software-Note Checked for outliers and was transformed (variance stabilizing transformation (VST)) to be visualized using a principal component analysis (PCA)
+
+
+@Software TopHat2 
+@Software-Type RNAseq reads mapped onto the Acropora millepora genome
+@Software-Note  Produced a count data gene expression matrix for subsequent analysis
+
+
+@Software DESeq2
+@Software-Type Log2 fold changes (log2FC) in gene expression levels
+@Software-Version R v1.4.5
+@Software-Note Designed a formula for differential gene expression that tests for the effects of salinity, controlling for the effect of the colony type and running the default functions for estimating size factors, dispersion and negative binomial Wald Test.
+
+
+@Data Heatmap (log2FC) summarising expression relative to 35 PSU controls of the suite of 98 genes which responded (FDR < 0.05) in all four salinity treatments
+@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/1
+@Data-Type WebP File
+@Data-Size 126KB
+
+
+@Data Differential expression of A. millepora homologues of components of the ER protein processing machinery (pathway 04141) after exposure of adult corals to 1 and 24 h of hypo-saline conditions
+@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/2
+@Data-Type WebP File
+@Data-Size 290KB
+
+
+@Data Expression of A. millepora homologues of genes involved in amino acid metabolism during hypo-osmotic stress in adult and juvenile corals
+@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/3
+@Data-Type WebP File
+@Data-Size 150KB
+
+
+@Data Total number of differentially expressed genes (DEGs) (FDR < 0.05) for each dataset
+@Data-URI https://static-content.springer.com/esm/art%3A10.1186%2Fs12864-019-5527-2/MediaObjects/12864_2019_5527_MOESM2_ESM.png
+@Data-Type PNG Image
+@Data-Size 54KB
+
+
+@Data Differentially expressed genes and their GO as in the heat map 
+@Data-Type Xlsx file
+@Data-Size 122KB
