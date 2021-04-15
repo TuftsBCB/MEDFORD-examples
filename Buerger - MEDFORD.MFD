@@ -1,0 +1,211 @@
+﻿Annotation by Jay-Miguel Fonticella
+Last Update 3/17/21
+
+
+________________
+
+
+
+
+@Paper Heat-evolved microalgal symbionts increase coral bleaching tolerance
+@Paper-Link https://doi.org/10.1126/sciadv.aba2498
+
+
+@Journal Science Advances
+@Journal-Volume 6
+@Journal-Issue 20
+
+
+@Date 2019-11-17:00:00:00
+@Date-Note Received
+
+
+@Date 2020-03-06:00:00:00
+@Date-Note Accepted
+
+
+@Date 2015-05-13:00:00:00
+@Date-Note Published
+
+
+@Contributor P. Buerger
+@Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
+@Contributor-Role First Author
+@Contributor-Email patrick.buerger@csiro.au
+@Contributor-Type Individual
+
+
+@Contributor C. Alvarez-Roa
+@Contributor-Association Australian Institute of Marine Science, PMB #3, Townsville, QLD 4810, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor C. W. Coppin
+@Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor S. L. Pearce
+@Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor L. J. Chakravarti
+@Contributor-Association Australian Institute of Marine Science, PMB #3, Townsville, QLD 4810, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor J. G. Oakeshott
+@Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor O. R. Edwards
+@Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor M. J. H. van Oppen
+@Contributor-Association School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia
+@Contributor-Role Last Author
+@Contributor-Email madeleine.van@unimelb.edu.au
+@Contributor-Type Individual
+
+
+@Contributor L. Hartman
+@Contributor-Note Graphical schematics
+@Contributor-Type Individual
+
+
+@Funding Australian Research Council Laureate Fellowship
+@Funding-ID FL180100036
+
+
+@Keyword Zooxanthellae
+@Keyword Science & Technology
+@Keyword Resilience
+@Keyword Multidisciplinary Sciences
+@Keyword Stress
+@Keyword Chlorophyll Fluorescence
+@Keyword Co2 Fixation
+@Keyword Inhibition
+@Keyword Expression
+@Keyword Science & Technology - Other Topics
+
+
+@Species Acropora tenuis
+@Species-Reef Cleveland Bay
+@Species-Loc Townsville, Australia
+
+
+@Method Imaging pulse-amplitude modulation chlorophyll fluorometer
+@Method-Type Photosynthetic performance
+
+
+@Method Countess II FL Automated Cell Counter
+@Method-Type Symbiodiniaceae cell density measurement
+
+
+@Method CellROX orange liquid stain
+@Method-Type Measured extracellular ROS
+
+
+@Method Quick-RNA MiniPrep Kit (Zymo)
+@Method-Type RNA isolation
+
+
+@Method TissueLyser II (Qiagen)
+@Method-Type Coral sample disruption
+
+
+@Method Zymo RNA lysis buffer
+@Method-Type Reducing of RNA 
+
+
+@Method Standard Zymo kit protocol
+@Method-Type RNA extraction
+
+
+@Method Illumina TruSeq Stranded mRNA v2 Kit
+@Method-Type RNA libraries preparation
+
+
+@Method NovaSeq 6000 with S1 flowcell kit
+@Method-Type Library sequencing
+
+
+@Software STAR
+@Software-Type Mapped algal symbiont and coral host reads 
+Software-Version 2.5.3
+
+
+@Software Local DIAMOND Blastx scan
+@Software-Type Genome annotation
+Software-Version 10.12.2018
+@Software-Note using an e-value cutoff of <10−5
+
+
+@Software Blast2GO
+@Software-Type Corrected genome annotations
+Software-Version 5.0.8
+@Software-Note InterProScan applied to obtain GO categories
+
+
+@Software Limma Linear models for microarray data
+@Software-Type Gene expression matrix processing
+Software-Version R v3.36.5
+@Software-Note 
+
+
+@Software GOseq
+@Software-Type GO enrichment
+Software-Version R v1.34.1
+@Software-Note To assess respective unique adaptations of the strains, significantly DEGs that were unique for the respective sample groups were used for GO enrichment
+
+
+@Software R package stats
+@Software-Type Generalized linear models of physiological measurements
+Software-Version R  v3.5.1
+@Software-Note ll physiological measurements (cell densities, chlorophyll measurements, and ROS) were tested for significant differences between WT and SS strains 
+
+
+@Software R package adonis
+@Software-Type Gene expression profile analysis
+Software-Version R v2.5-4
+@Software-Note Permutational multivariate analysis of variance using distance matrices
+
+
+@Data In vitro thermal tolerance assessment of heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
+@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F1.large.jpg
+@Data-Type JPEG Image
+@Data-Size 128KB
+
+
+@Data In hospite comparison of coral larvae bleaching tolerance between heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
+@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F2.large.jpg?width=800&height=600&carousel=1
+@Data-Type JPEG Image
+@Data-Size 104KB
+
+
+@Data Gene expression patterns of coral holobionts
+@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F3.large.jpg
+@Data-Type JPEG Image
+@Data-Size 157KB
+
+
+@Data Relative expression of genes involved in specific physiological functions
+@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F4.large.jpg?width=800&height=600&carousel=1
+@Data-Type JPEG Image
+@Data-Size 447KB
+
+
+@Data Supplementary Data Material
+@Data-URI https://advances.sciencemag.org/content/suppl/2020/05/11/6.20.eaba2498.DC1
+@Data-Type PDF File
+@Data-Size 2.3MB
