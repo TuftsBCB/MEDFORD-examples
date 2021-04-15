@@ -1,0 +1,178 @@
+﻿Annotation by Jay-Miguel Fonticella
+Last Update 3/20/21
+
+
+________________
+
+
+
+
+@Paper Genomic basis for coral resilience to climate change
+@Paper-Link https://doi.org/10.1073/pnas.1210224110
+
+
+@Journal Proceedings of the National Academy of Sciences
+@Journal-Volume 110
+@Journal-Issue 4
+
+
+@Date 2012-06-15:00:00:00
+@Date-Note Received
+
+
+@Date 2012-11-30:00:00:00
+@Date-Note Accepted
+
+
+@Date 2013-01-22:00:00:00
+@Date-Note Published
+
+
+@Contributor Daniel J. Barshis
+@Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
+@Contributor-Role First Author
+@Contributor-Email barshis@gmail.com
+@Contributor-Type Individual
+
+
+@Contributor Jason T. Ladner
+@Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Thomas A. Oliver
+@Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor François O. Seneca
+@Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Nikki Traylor-Knowles
+@Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Stephen R. Palumbi
+@Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
+@Contributor-Role Last Author
+@Contributor-Type Individual
+
+
+@Contributor P. Craig
+@Contributor-Note Field site access and logistical help
+@Contributor-Type Individual
+
+
+@Contributor T. Clark
+@Contributor-Note Field site access and logistical help
+@Contributor-Type Individual
+
+
+@Contributor C. Caruso
+@Contributor-Note Field site access and logistical help
+@Contributor-Type Individual
+
+
+@Contributor T. Waterson
+@Contributor-Note Field assistance
+@Contributor-Type Individual
+
+
+@Contributor C.S. McKeon
+@Contributor-Note Field assistance
+@Contributor-Type Individual
+
+
+@Contributor Gordon and Betty Moore Foundation
+@Contributor-Type Funding
+
+
+@Keyword Acquired stress tolerance
+@Keyword Acropora hyacinthus
+@Keyword Thermal stress
+@Keyword Transcriptomics
+@Keyword Cnidarian
+
+
+@Species Acropora hyacinthus
+@Species-Reef South Side Back
+@Species-Loc Ofu Island, American Samoa
+@Species-Note Small branchlets (∼2 cm3 ) were  collected from (14°11′S, 169°36′W)
+
+
+#Is it necessary to include all methods if described across multiple documents?
+@Method RNAlater
+@Method-Type Coral sample preservation
+
+
+@Method TRIzol (GibcoBRL/Invitrogen)
+@Method-Type RNA extraction
+
+
+@Method Illumina Genome Analyzer II (Illumina)
+@Method-Type Library construction and sequencing
+
+
+ @Method Micro-FastTrack mRNA isolation kit
+@Method-Type mRNA isolation
+
+
+@Software CLC Genomics Workbench 
+@Software-Type  Reference transcriptome generation
+Software-Version 4
+
+
+@Software FASTX-Toolkit
+@Software-Type Poor-quality raw sequence portions trimmed
+Software-Version 0.0.13
+
+
+@Software BLASTN
+@Software-Type Putative coral sequences identification
+
+
+@Software DESeq
+@Software-Type Gene expression read counts
+@Software-Version R v4.0.4
+@Software-Note A total of six pairwise comparisons were performed on the dataset to investigate differences in gene expression patterns in response to temperature and based on locations
+
+
+@Software Picard
+@Software-Type Duplicate mapping reads identification
+@Software-Version  1.43
+@Software-Note Read counts for each contig were compiled from .sam files for uniquely, well-mapped, nonduplicate reads (≥20 bp; mapping quality, ≥20) using a custom python script
+
+
+@Software GOEAST
+@Software-Type Statistically overrepresented GO category determination
+@Software-Note Statistically overrepresented GO categories were determined using default statistical tests and multiple-testing adjustments
+
+
+@Data Venn diagram showing the number of differentially expressed genes detected during analysis based on temperature, location, within-location temperature response, and within-treatment location differences
+@Data-URI https://www.pnas.org/content/pnas/110/4/1387/F2.large.jpg
+@Data-Type JPEG Image
+@Data-Size 95KB
+
+
+@Data Scatterplot of the log2 fold changes in gene expression in response to heat stress in the MV corals vs. the HV corals for the 169 genes that were unique to the MV control vs. heated comparison
+@Data-URI https://www.pnas.org/content/pnas/110/4/1387/F3.large.jpg
+@Data-Type JPEG Image
+@Data-Size 78KB
+
+
+@Data Scatterplot comparing the relative ratio of heat-to-control fold changes in expression between HV and MV corals
+@Data-URI https://www.pnas.org/content/pnas/110/4/1387/F4.large.jpg
+@Data-Type JPEG Image
+@Data-Size 77KB
+
+
+@Data Supporting Data Figures
+@Data-URI https://www.pnas.org/content/pnas/suppl/2013/01/02/1210224110.DCSupplemental/pnas.201210224SI.pdf?targetid=nameddest%3DST1
+@Data-Type xlsx file
