@@ -1,32 +1,23 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/20/21
 
-
 ________________
-
-
-
 
 @Paper Major Cellular and Physiological Impacts of Ocean Acidification on a Reef Building Coral
 @Paper-Link https://doi.org/10.1371/journal.pone.0034659
-
 
 @Journal PLoS ONE
 @Journal-Volume 7
 @Journal-Issue 4
 
-
 @Date 2011-09-19:00:00:00
 @Date-Note Received
-
 
 @Date 2012-03-06:00:00:00
 @Date-Note Accepted
 
-
 @Date 2013-04-11:00:00:00
 @Date-Note Published
-
 
 @Contributor Paulina Kaniewska
 @Contributor-Association School of Biological Sciences, The University of Queensland, St Lucia, Queensland, Australia
@@ -34,51 +25,41 @@ ________________
 @Contributor-Email p.kaniewska@aims.gov.au
 @Contributor-Type Individual
 
-
 @Contributor Paul R. Campbell 
 @Contributor-Association Agri-Science Queensland, Department of Employment, Economic Development and Innovation, Dutton Park, Queensland, Australia
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor David I. Kline
 @Contributor-Association School of Biological Sciences, The University of Queensland, St Lucia, Queensland, Australia
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Mauricio Rodriguez-Lanetty
 @Contributor-Association Department of Biology, University of Louisiana at Lafayette, Lafayette, Louisiana, United States of America
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor David J. Miller
 @Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Coral Genomics Group, School of Pharmacy and Molecular Sciences, James Cook University, Townsville, Queensland, Australia
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Sophie Dove
 @Contributor-Association School of Biological Sciences, The University of Queensland, St Lucia, Queensland, Australia
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Ove Hoegh-Guldberg
 @Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Coral Genomics Group, School of Pharmacy and Molecular Sciences, James Cook University, Townsville, Queensland, Australia
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
-
 @Contributor A. Forrest
 @Contributor-Note Experimental discussions
 @Contributor-Type Individual
 
-
-@Contributor Australian Research Council Centre for Excellence for Coral Reef Studies
-@Contributor-Type Funding
-
+@Funding Australian Research Council Centre for Excellence for Coral Reef Studies
 
 @Keyword Corals
 @Keyword Carbon dioxide
@@ -89,117 +70,93 @@ ________________
 @Keyword Cytoskeleton
 @Keyword Microarrays
 
-
 @Species Acropora millepora
 @Species-Reef Great Barrier
 @Species-Loc Padstow, Australia
 @Species-Note A total of 20 branches (7–8 cm long) collected (23 33′S, 151 54′E)
 
-
 @Method Buoyant weight method
 @Method-Type Branch growth/calcification rate
-
 
 @Method Imaging pulse amplitude modulation fluorometer
 @Method-Type Photosynthesis vs irradiance curve measurements
 
-
 @Method Trizol (Invitrogen)
 @Method-Type RNA extraction
-
 
 @Method Bioanalyzer (Agilent Technology)
 @Method-Type RNA quality assessment
 
-
 @Method Superscript Reverse Transcriptase (Invitrogen)
 @Method-Type cDNA probe synthesis
-
 
 @Method Genisphere 3DNA-900 microarray kit
 @Method-Type Microarrays pre-hybridized and hybridized
 
-
 @Method GenePix ® 4200 scanner (Axon Instruments)
 @Method-Type Microarray slide scanner
-
 
 @Method TempliPhi (GE Life Sciences)
 @Method-Type cDNA library isolation
 
-
 @Method Biorad Chipwriter Pro
 @Method-Type Microarray generation
-
 
 @Method Superscript Vilo cDNA synthesis kit (Invitrogen)
 @Method-Type Total RNA reverse transcription
 
-
 @Method Corbett Rotor Gene 6000 thermal cycling system (Qiagen)
 @Method-Type Transcript level determination
-
 
 @Method Comparative delta CT method
 @Method-Type determine relative quantities of mRNA transcripts
 
-
 @Software GenePix Pro (Molecular Devices, CA, USA)
 @Software-Type Microarray slide image acquisition
 @Software-Version 5
-
 
 @Software R limma package
 @Software-Type Normalization and data analysis of acquired array slides
 @Software-Version R v1.8.18
 @Software-Note Analyzed differential gene expression using empirical Bayes shrinkage of variance and linear regression models
 
-
 @Software TIGR TMEV
 @Software-Type Principal component analysis
 @Software-Note Differentially expressed genes at day 1 and 28 were then assembled into 6 different clusters based on their temporal gene expression patterns
 
-
 @Software GeNorm software
 @Software-Type Analyzing the expression stability
 @Software-Note The selection of reference genes for this experiment was done by using a pool of reference genes
-
 
 @Software STATISTICA
 @Software-Type test for significance on the expression levels of mRNAs from quantitative real time PCR
 @Software-Version 7.0
 @Software-Note For each gene a Welch t-test was used
 
-
 @Data Graphical representation of differentially expressed genes in Acropora millepora across pCO2 treatments (control, medium and high) at day 1 and 28
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.g001
 @Data-Type TIFF Image
 @Data-Size 1.9MB
-
 
 @Data Classification analysis for Acropora millepora transcripts that were differentially expressed across pCO2 treatments (control, medium and high) at day 1 and 28
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.g002
 @Data-Type TIFF Image
 @Data-Size 2MB
 
-
 @Data Log2 relative expression of selected genes using quantitative real-time PCR
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.g003
 @Data-Type TIFF Image
 @Data-Size 675KB
-
 
 @Data Carbonate chemistry parametersa across experimental conditions
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.t001
 @Data-Type TIFF Image
 @Data-Size 154KB
 
-
 @Data The effect of increasing CO2 in seawater (control, medium and high) after 28 days on coral-algal physiology
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.g004
 @Data-Type TIFF Image
 @Data-Size 1.4MB
-
 
 @Data Principal component analysis of gene expression for 3 acidification treatments; control (c), medium (m) and high (h) and 3 time points: T0 (t), day 1 (d) and day 28 (m)
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.s001
