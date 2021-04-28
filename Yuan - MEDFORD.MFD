@@ -1,0 +1,198 @@
+﻿Annotation by Jay-Miguel Fonticella
+Last Update 3/17/21
+
+
+________________
+
+
+
+
+@Paper Elevated CO2 delays early development of scleractinian coral Acropora gemmifera
+@Paper-Link https://doi.org/10.1038/s41598-018-21267-3
+
+
+@Journal Scientific Reports
+@Journal-Volume 8
+@Journal-Issue 2787
+
+
+@Date 2017-06-02:00:00:00
+@Date-Note Received
+
+
+@Date 2018-02-01:00:00:00
+@Date-Note Accepted
+
+
+@Date 2018-02-12:00:00:00
+@Date-Note Published
+
+
+@Contributor Xiangcheng Yuan
+@Contributor-Association CAS Key Laboratory of Tropical Marine Bio-resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
+@Contributor-Role First Author
+@Contributor-Type Individual
+
+
+@Contributor Tao Yuan
+@Contributor-Association CAS Key Laboratory of Tropical Marine Bio-resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Hui Huang
+@Contributor-Association Tropical Marine Biological Research Station in Hainan, Chinese Academy of Sciences, Sanya, 572000, China
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Lei Jiang
+@Contributor-Association Guangdong Provincial Key Laboratory of Applied Marine Biology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Weihua Zhou
+@Contributor-Association Tropical Marine Biological Research Station in Hainan, Chinese Academy of Sciences, Sanya, 572000, China
+@Contributor-Role Author
+@Contributor-Type Individual
+
+
+@Contributor Sheng Liu
+@Contributor-Association CAS Key Laboratory of Tropical Marine Bio-resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
+@Contributor-Role Last Author
+@Contributor-Type Individual
+
+
+@Keyword Ecosystem ecology
+@Keyword Marine chemistry
+
+
+@Species Acropora gemmifera
+@Species-Reef Luhuitou fringing
+@Species-Loc Sanya Bay, China 
+@Species-Note (18° 15′ N; 109° 25′ E) at ~2–5 m depth
+
+
+@Method CO2 system
+@Method-Type Seawater chemistry manipulation
+
+
+@Method scanning electron microscopy
+@Method-Type Coral skeleton analysis
+
+
+@Method stereomicroscope
+@Method-Type New coral imaging
+
+
+@Method TRI-Reagent (Sigma)
+@Method-Type RNA extraction
+
+
+@Method Transcriptome sequencing
+@Method-Type Carried out for de novo assembly and analysis
+@Method-Note Ran by by the Huada Gene Company protocol
+
+
+@Method AMPure XP system
+@Method-Type PCR product purification
+
+
+@Method Agilent Bioanalyzer 2100 system
+@Method-Type Library quality assessment
+
+
+@Method Illumina HiSeq™ 2000 sequencing platform
+@Method-Type Sequenced the cDNA library
+
+
+@Software ToupView
+@Software-Type Diameter of live tissue measurement
+@Software-Version 3.7
+
+
+@Software Trinity program
+@Software-Type clean reads were de novo assembled into contigs
+@Software-Note The read coverage in each sample roughly exhibited a similar distribution
+
+
+@Software BLASTx
+@Software-Type Annotated all unigenes
+@Software-Note Annotated against the NCBI Nr and KEGG pathway databases, with an E-value cut-off of 1E-5
+
+
+@Software Blast2GO
+@Software-Type unigenes were classified in terms of molecular function, biological process, and cellular component
+
+
+@Software Solexa/Illumina RNA-seq
+@Software-Type Annotated differentially expressed genes
+@Software-Note Using GO and KEGG enrichment analyses
+
+
+@Software BLAST
+@Software-Type Assess differential gene expression
+@Software-Note Estimated with log2 fold change
+
+
+@Software Expdiff
+@Software-Type differential gene expression analysis of the two experimental groups was determined
+@Software-Note High CO2 treatment vs control
+
+
+@Software SPSS 19 System for Windows
+@Software-Type Statistical analyses
+@Software-Note A q value (or FDR) of <0.005 & |log2 fold change|>1 was set as the threshold for significantly different expressions
+
+
+
+
+@Data Embryonic development and larval development of coral A. gemmifera 
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/1
+@Data-Type WebP File
+@Data-Size 99KB
+
+
+@Data The larval settlement ratios and survivorship of new recruits after 3-day and 10-day settlement at different pH values
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/2
+@Data-Type WebP File
+@Data-Size 35 KB
+
+
+@Data Progressive morphological changes in A. gemmifera
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/3
+@Data-Type WebP File
+@Data-Size 146KB
+
+
+@Data The skeletal structure on the 40th day after settlement
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/4
+@Data-Type WebP File
+@Data-Size 252KB
+
+
+@Data The percentage of differentially expressed genes
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/5
+@Data-Type WebP File
+@Data-Size 46KB
+
+
+@Data Differential expressions of apoptosis-related genes
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/1
+@Data-Type Website
+
+
+@Data Differential expressions of ion transporter-related genes
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/2
+@Data-Type Website
+
+
+@Data Differential expressions of skeletal organic matrix-related genes
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/3
+@Data-Type Website
+
+
+@Data Values of pH, temperature (T), salinity, total alkalinity (TA), dissolved inorganic carbon (DIC), pCO2 and aragonite saturation state (ΩA) during incubations
+@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/4
+@Data-Type Website
