@@ -163,7 +163,7 @@ ________________
 @Software-Type Duplicate read identification
 @Software-Version v1.43
 @Software-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
-
+@Software-Reference https://broadinstitute.github.io/picard/
 
 @Software DESeq
 @Software-Type Sequencing data normalization
