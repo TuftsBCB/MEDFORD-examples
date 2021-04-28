@@ -1,32 +1,23 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/17/21
 
-
 ________________
-
-
-
 
 @Paper Genetic Signature of Resistance to White Band Disease in the Caribbean Staghorn Coral Acropora cervicornis
 @Paper-Link https://doi.org/10.1371/journal.pone.0146636
-
 
 @Journal PLoS ONE
 @Journal-Volume 11
 @Journal-Issue 1
 
-
 @Date 2015-08-26:00:00:00
 @Date-Note Received
-
 
 @Date 2015-12-20:00:00:00
 @Date-Note Accepted
 
-
 @Date 2016-01-19:00:00:00
 @Date-Note Published
-
 
 @Contributor Silvia Libro
 @Contributor-Association Marine Science Center, Northeastern University, 430 Nahant Road, Nahant, Massachusetts, United States of America
@@ -34,45 +25,36 @@ ________________
 @Contributor-Email libro.s@husky.neu.edu
 @Contributor-Type Individual
 
-
 @Contributor Steven V. Vollmer
 @Contributor-Association Marine Science Center, Northeastern University, 430 Nahant Road, Nahant, Massachusetts, United States of America
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
-
 @Contributor Elizabeth Hemond
 @Contributor-Note Field and logistical support
 @Contributor-Type Individual
-
 
 @Contributor Carmel Norman
 @Contributor-Note Field and logistical support
 @Contributor-Type Individual
 
-
 @Contributor Smithsonian Tropical Research Institute
 @Contributor-Note Field and logistical support
 @Contributor-Type Individual
-
 
 @Contributor Tarik Gouhier
 @Contributor-Note Experimental comments
 @Contributor-Type Individual
 
-
 @Contributor Gonzalo Giribet
 @Contributor-Note Experimental comments
 @Contributor-Type Individual
 
+@Funding National Science Foundation
+@Funding-ID OCE 0751666
 
-@Contributor National Science Foundation (OCE 0751666)
-@Contributor-Type Funding
-
-
-@Contributor National Science Foundation (Grant 0963010)
-@Contributor-Type Funding
-
+@Funding National Science Foundation
+@Funding-ID Grant 0963010
 
 @Keyword Corals
 @Keyword Coral Reefs
@@ -83,72 +65,57 @@ ________________
 @Keyword Pathogens
 @Keyword Protein Folding
 
-
-#Is Panama vs. Republic of Panama important? Reported differently between articles.
 @Species Acropora cervicornis
 @Species-Reef Crawl Cay
 @Species-Loc Bocas del Toro, Republic of Panama
 
-
 @Method in situ transmission experiments
 @Method-Type Resistant and susceptible staghorn coral genotype identification
-
 
 @Method Microsatellite loci genotype PCR
 @Method-Type Identify unique staghorn genotypes
 
-
 @Method TriReagent
 @Method-Type RNA extraction
 
-
 @Method Illumina mRNA-seq
 @Method-Type RNAseq library preparation
-
 
 @Software Illumina GAII platform 
 @Software-Type Sequencing Multiplexed paired-end libraries
 @Software-Note Sequenced at FAS Center for System Biology at Harvard University
 
-
 @Software Perl Scripts in the FASTX-Toolkit
 @Software-Type De-multiplexing, read trimming and thinning
 @Software-Version 0.0.13
-
 
 @Software tBLASTx
 @Software-Type Performed functional annotation
 @Software-Note Used an e-value cutoff less than 10-5 against the Swiss-Prot and TReMBL protein databases
 
-
 @Software Gene ontology (GO) terms and manually curated categories
 @Software-Type Gene functions retrieval for the annotated transcripts
 @Software-Note Used to highlight presence of immune related domains or a putative immune role based on the literature
-
 
 @Software DESeq2
 @Software-Type Differential expression analysis
 @Software-Version Rv3.5.2
 @Software-Note Identified coral transcripts that differed significantly in their expression between the two disease resistance phenotypes 
 
-
 @Software GENE-E
 @Software-Type Visualized differential genotype expression
 @Software-Version Rv1.6.0
 @Software-Note A clustered heat map of the differentially (DE) transcripts was created using log-transformed normalized count data
-
 
 @Data Differential expression analyses of RNA-seq data for staghorn coral resistance phenotypes and exposure treatments
 @Data-URI https://doi.org/10.1371/journal.pone.0146636.g002
 @Data-Type TIFF Image
 @Data-Size 269KB
 
-
 @Data Gene expression analysis of resistant (R) and susceptible (S) corals exposed to allogeneic tissue and active White Band Disease (WBD)
 @Data-URI https://doi.org/10.1371/journal.pone.0146636.g003
 @Data-Type TIFF Image
 @Data-Size 1.8MB
-
 
 @Data Expression values of significantly differentially expressed transcripts in resistant corals
 @Data-URI https://doi.org/10.1371/journal.pone.0146636.s001
