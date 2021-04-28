@@ -1,32 +1,23 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/20/21
 
-
 ________________
-
-
-
 
 @Paper Short Term Exposure to Heat and Sediment Triggers Changes in Coral Gene Expression and Photo-Physiological Performance
 @Paper-Link https://doi.org/10.3389/fmars.2019.00121
-
 
 @Journal Frontiers in Marine Science
 @Journal-Volume 6
 @Journal-Issue 121
 
-
 @Date 2018-04-28:00:00:00
 @Date-Note Received
-
 
 @Date 2019-02-27:00:00:00
 @Date-Note Accepted
 
-
 @Date 2013-03-19:00:00:00
 @Date-Note Published
-
 
 @Contributor Rosa Celia Poquita-Du
 @Contributor-Association Experimental Marine Ecology Laboratory, Department of Biological Sciences, National University of Singapore, Singapore, Singapore
@@ -34,52 +25,42 @@ ________________
 @Contributor-Email rcpdu@u.nus.edu
 @Contributor-Type Individual
 
-
 @Contributor Danwei Huang
 @Contributor-Association Reef Ecology Laboratory, Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Loke Ming Chou
 @Contributor-Association Tropical Marine Science Institute, National University of Singapore, Singapore, Singapore
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Mrinalini
 @Contributor-Association Evolutionary Biology Laboratory, Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Peter A. Todd
 @Contributor-Association Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
-
 @Contributor Eslam Osman
 @Contributor-Note Manuscript review
 @Contributor-Type Individual
-
 
 @Contributor Michael Sweet
 @Contributor-Note Manuscript review
 @Contributor-Type Individual
 
-
 @Contributor National Research Foundation, Singapore Marine Science Research and Development Program (Award Nos. MSRDP-P03 and MSRDP-P05).
 @Contributor-Type Funding
 
+@Funding Southeast Asian Biodiversity Genomics Center
+@Funding-ID R-154-000-648-646
 
-@Contributor Southeast Asian Biodiversity Genomics Center (R-154-000-648-646)
-@Contributor-Type Funding
-
-
-@Contributor Maritime and Port Authority (MPA) of Singapore (R-347-000-215-490)
-@Contributor-Type Funding
-
+@Funding Maritime and Port Authority (MPA) of Singapore
+@Funding-ID R-347-000-215-490
 
 @Keyword Pocillopora acuta
 @Keyword ex situ experiment
@@ -88,113 +69,91 @@ ________________
 @Keyword Symbiodiniaceae
 @Keyword Genotypes
 
-
 @Species Pocillopora acuta
 @Species-Reef Raffles Lighthouse
 @Species-Loc Southern Islands, Singapore
 @Species-Note P. acuta (∼25 cm maximum diameter) were collected from three reef sites (∼4 m depth)
 
-
 @Method Portable diving PAM fluorometer
 @Method-Type Measure maximum quantum yield
-
 
 @Method Rapid light curves (RLCs)
 @Method-Type Photosynthetic performance assessment
 
-
 @Method RNAlater (Thermo Fisher)
 @Method-Type Sample preservation
-
 
 @Method TRIzol (Life Technologies)
 @Method-Type RNA isolation
 
-
 @Method Qubit RNA (Broad-Range) assay kit
 @Method-Type RNA quality assessment
-
 
 @Method Illumina-based cDNA library preparation
 @Method-Type cDNA library assembly
 
-
 @Method Illumina HiSeq 2500 platform
 @Method-Type cDNA libraries pooling and sequencing
-
 
 @Software dplR
 @Software-Type Examine the effects on coral photo-physiological performance
 @Software-Version R v1.6.0
 @Software-Note Both Fv/Fm and chl a concentration (continuous data) were fitted to linear mixed-effects models
 
-
 @Software Trinity
 @Software-Type consolidation of the entire set of transcripts for each genotype
 @Software-Version 2.2.0
 @Software-Note all sequence reads from the same genotype (regardless of experimental treatments) were combined and assembled, de novo
 
-
 @Software Trimmomatic (built-in Trinity tool)
 @Software-Type Quality trimming
 @Software-Note removal of poor-quality reads with Phred quality score < 20, and adapter sequences
-
 
 @Software Transdecoder
 @Software-Type Identify open reading frames
 @Software-Version 3.0.0
 
-
 @Software CD-HIT
 @Software-Type Redundant transcript sequence removal
 @Software-Note Removed through clustering analysis of transcripts that showed 100% nucleotide sequence similarities for both strands
 
-
 @Software Blastn
 @Software-Type Ribosomal RNA (rRNA) contamination removal
 @Software-Note removed based on nucleotide sequence similarity (blastn, evalue ≤ 1e-5) to curated rRNA data
-
 
 @Software CLC Genomics Workbench
 @Software-Type Differential gene expression (DGE) analysis
 @Software-Version 10.0.1
 @Software-Note Performed using the RNA-Seq Analysis tool
 
-
 @Software UniProtKB
 @Software-Type Annotate the DEGs
 @Software-Note Annotate significant blastx matches with likely functional profiles [i.e., Gene Ontology (GO) terms]
-
 
 @Data Results from linear mixed-effects model on the effects of different treatments on Fv/Fm and chl a concentration, using control as the reference category (intercept)
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t002.jpg
 @Data-Type JPEG Image
 @Data-Size 94KB
 
-
 @Data Results from generalized linear mixed-effects model on the effects of different treatments on average symbiont density, using control as the reference category (intercept)
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t003.jpg
 @Data-Type GIF Image
 @Data-Size 328KB
-
 
 @Data Average levels of maximum quantum yield (Fv/Fm) (A), chl a concentration (B) and, symbiont density (C) for all genotypes and different treatments. Box plots show median values (solid horizontal line), interquartile range (box outline) and highest and lowest extremes (whiskers)
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g002.jpg
 @Data-Type JPEG Image
 @Data-Size 428KB
 
-
 @Data Summary statistics of de novo assemblies
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t004.jpg
 @Data-Type JPEG Image
 @Data-Size 134KB
 
-
 @Data Venn diagram showing overall number of differentially expressed transcripts (DETs) from RNA-Seq analysis
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g003.jpg
 @Data-Type JPEG Image
 @Data-Size 130KB
-
 
 @Data Heat map showing functional categories based on UniProtKB, gene IDs and expression patterns [lowest fold change (FC) in blue to highest FC in red] of differentially expressed genes
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g004.jpg
