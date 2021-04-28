@@ -1,32 +1,23 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/17/21
 
-
 ________________
-
-
-
 
 @Paper Early transcriptional responses during heat stress in the coral A. hyacinthus
 @Paper-Link https://doi.org/10.1086/692717
-
 
 @Journal The Biological Bulletin
 @Journal-Volume 232
 @Journal-Issue 2
 
-
 @Date 2016-09-26:00:00:00
 @Date-Note Received
-
 
 @Date 2017-03-30:00:00:00
 @Date-Note Accepted
 
-
 @Date 2017-05-31:00:00:00
 @Date-Note Published
-
 
 @Contributor Nikki Traylor-Knowles
 @Contributor-Association University of Miami Rosenstiel School of Marine and Atmospheric Science, 4600 Rickenbacker Causeway, Florida 33149
@@ -34,140 +25,113 @@ ________________
 @Contributor-Email ntraylorknowles@rsmas.miami.edu
 @Contributor-Type Individual
 
-
 @Contributor Noah H. Rose
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, 120 Oceanview Boulevard, Pacific Grove, California 93950
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Elizabeth A. Sheets
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, 120 Oceanview Boulevard, Pacific Grove, California 93950
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Stephen R. Palumbi
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, 120 Oceanview Boulevard, Pacific Grove, California 93950
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
+@Funding National Science Foundation
+@Funding-ID OCE-1323652
 
-@Contributor National Science Foundation (OCE-1323652)
-@Contributor-Type Funding
+@Funding National Science Foundation
+@Funding-ID Award 1012629
 
-
-@Contributor National Science Foundation (Award 1012629)
-@Contributor-Type Funding
-
-
-@Contributor Gordon and Betty Moore Foundation (Grant GBMF2629)
-@Contributor-Type Funding
-
+@Funding Gordon and Betty Moore Foundation
+@Funding-ID Grant GBMF2629
 
 @Keyword Heat Shock Protein
 @Keyword Log2 fold change
 @Keyword Nuclear factor kappa B
 @Keyword Unfolded protein response
 
-
 @Species Acropora hyacinthus
 @Species-Reef Southern Lagoon
 @Species-Loc Ofu Island, American Samoa
 @Species-Note 
 
-
 @Method RNAlater
 @Method-Type Coral branch preservation and processing
-
 
 @Method Qiagen RNA easy kits
 @Method-Type RNA extraction
 
-
 @Method TrueSeq Stranded mRNA Sample Prep protocol
 @Method-Type cDNA library preparation
-
 
 @Method TruSeq protocol 
 @Method-Type Purification of cDNA
 @Method-Note Used the Agencourt AMPure XP system
 
-
 @Method Illumina HiSeq 2000 sequencer
 @Method-Type RNA sequencing
 
-
 @Method Bowtie 2 
 @Method-Type Demultiplexed reads mapping
-
 
 @Software SAMtools
 @Software-Type Calculate raw gene expression counts
 @Software-Note Tabulated from quality filtered mapped reads 
 
-
 @Software DESeq2
 @Software-Type Contig average read depth filter
 @Software-Note Normalized for library size
 
-
 @Software DESeq2
 @Software-Type Tested for changes in expression over time
 @Software-Note Calculated Log2 fold change (Log2FC) and highest expressed genes at each time point
-
 
 @Software DAVID
 @Software-Type Contig functional enrichment analysis
 @Software-Version v6.8
 @Software-Note Contigs that were significantly differentially expressed were further analyzed
 
-
 @Software BLASTx 
 @Software-Type Tested differentially expressed contigs for functional enrichments
 @Software-Note Tested among the corresponding best BLASTx matches to the UniProt database
 
-
 @Software DAVID
 @Software-Type Calculated the false discovery rate (FDR) correction
 @Software-Note Used the Benjamini-Hochberg algorithm as implemented in the built-in “p.adjust function”
-
 
 @Data Overall gene expression and DAVID enrichment
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg1.gif
 @Data-Type GIF Image
 @Data-Size 43KB
 
-
 @Data Graph showing several developmental transcription factors responding by 60 min
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg2.gif
 @Data-Type GIF Image
 @Data-Size 50KB
-
 
 @Data Graph showing stress transcription factors upregulated by 240 min
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg3.gif
 @Data-Type GIF Image
 @Data-Size 40KB
 
-
 @Data Graphical view of heat shock protein 70 (HSP70) proteins upregulated early in heat stress
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg4.gif
 @Data-Type GIF Image
 @Data-Size 39KB
-
 
 @Data Graph showing that retrovirus-related Pol polyprotein from transposon sequences were highly upregulated early in heat stress
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg5.gif
 @Data-Type GIF Image
 @Data-Size 62KB
 
-
 @Data A model for the early heat stress response
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg6.gif
 @Data-Type GIF Image
 @Data-Size 34KB
-
 
 @Data Heat shock profile performed for this experiment
 @Data-URI https://www.journals.uchicago.edu/na101/home/literatum/publisher/uchicago/journals/content/bbl/2017/bbl.2017.232.issue-2/692717/20170626/images/large/fga1.jpeg
