@@ -1,32 +1,23 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/16/21
 
-
 ________________
-
-
-
 
 @Paper RNA-seq Profiles of Immune Related Genes in the Staghorn Coral Acropora cervicornis Infected with White Band Disease
 @Paper-Link https://doi.org/10.1371/journal.pone.0081821
-
 
 @Journal PLoS ONE
 @Journal-Volume 8
 @Journal-Issue 11
 
-
 @Date 2013-08-22:00:00:00[a]
 @Date-Note Received
-
 
 @Date 2013-10-24:00:00:00
 @Date-Note Accepted
 
-
 @Date 2013-11-21:00:00:00
 @Date-Note Published
-
 
 @Contributor Silvia Libro
 @Contributor-Association Marine Science Center, Northeastern University, Nahant, Massachusetts, United States of America
@@ -34,38 +25,30 @@ ________________
 @Contributor-Email libro.s@husky.neu.edu
 @Contributor-Type Individual
 
-
 @Contributor Stefan T. Kaluziak
 @Contributor-Association Marine Science Center, Northeastern University, Nahant, Massachusetts, United States of America
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Steven V. Vollmer
 @Contributor-Association Marine Science Center, Northeastern University, Nahant, Massachusetts, United States of America
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
-
 @Contributor Elizabeth Hemond
 @Contributor-Note Sample collection and library preparation
 @Contributor-Type Individual
-
 
 @Contributor Laura Geyer
 @Contributor-Note Field and logistical support
 @Contributor-Type Individual
 
-
-@Contributor Smithsonian Tropical Research Institute[b]
+@Contributor Smithsonian Tropical Research Institute
 @Contributor-Note Field and logistical support
 @Contributor-Type Individual
 
-
-#Is a funding dash necessary for adding the grant number?[c]
-@Contributor National Science Foundation (OCE 0751666)
-@Contributor-Type Funding
-
+@Funding National Science Foundation
+@Funding-ID OCE 0751666
 
 @Keyword Corals
 @Keyword Apoptosis
@@ -76,99 +59,65 @@ ________________
 @Keyword Metabolic Processes
 @Keyword Transcriptome Analysis
 
-
-#Added note as replacement for culture, does flash frozen belong as method or coral culture?[d]
 @Species Acropora cervicornis
 @Species-Reef Crawl Cay
 @Species-Loc Bocas del Toro, Panama
 @Species-Notes The coral tissues were flash frozen in liquid nitrogen and stored at -80°C.
 
-
 @Method Active mobile WBD interfaces
 @Method-Type Diseased sample detection
-
 
 @Method TriReagent
 @Method-Type RNA extraction
 
-
 @Method DNA fragmentase
 @Method-Type cDNA fragmentation
-
 
 @Method RNA Pico Chips on an Agilent Bioanalyzer 2100
 @Method-Type RNA quality assessment
 
-
 @Method Next-generation sequencing modules 
 @Method-Type RNA-seq libraries preparation
 
-
-#Biology-based workers may be confused regarding the difference between software and methods (not always mutually exclusive from my experience)
-#RNA quantification by droplets utilize a software to quantify the amount, but previously noted quantification as methods, difficult to distinguish between?
 @Software Multiplexed Illumina mRNA-seq protocol
 @Software-Type RNA sequencing
 @Software-Note Performed on five diseased and six healthy coral samples
-
 
 @Software Perl Scripts in the FASTX-Toolkit
 @Software-Type Raw sequencing read quality trimming
 @Software-Note Remove sequences and regions with a Phred score of less than 30 and a read length less than 15bp long
 
-
 @Software Trinity method
 @Software-Type Full-length transcriptome assembly
 @Software-Note Assembled a de novo transcriptome from the coral host, its algal symbiont Symbiodinium, and other members of the coral holobiont
-
 
 @Software BLAST
 @Software-Type Holobiont resolution 
 @Software-Note Classify the source of the assembled transcripts as either coral or non-coral
 
-
 @Software tBLASTx
 @Software-Type Putative gene identification
 @Software-Note Identified by performing homology searches against the Swiss-Prot and TReMBLE protein databases
-
 
 @Software R package DESeq
 @Software-Type Gene expression analysis
 @Software-Version Rv3.5.2
 @Software-Note Differences in gene expression between healthy and disease
 
-
-#No link for CSV files, is this okay? Are the current URI links acceptable for media 2 and 3?[e]
-#Uncertain how to title document
 @Data Summary of coral and non-coral transcripts
 @Data-Type CSV file
 @Data-Size 181 bytes
-
 
 @Data Volcano plots displaying differential gene expression between healthy and disease A. cervicornis
 @Data-URI https://doi.org/10.1371/journal.pone.0081821.g002
 @Data-Type TIFF image
 @Data-Size 398KB
 
-
 @Data Heatmap of immune-related differentially expressed coral transcripts
 @Data-URI https://doi.org/10.1371/journal.pone.0081821.g003
 @Data-Type TIFF image
 @Data-Size 2.3MB
 
-
 @Data Summary of the main pathways involved in A.cervicornis response to WBD
 @Data-Type CSV file
 @Data-Size 3KB
-
-
-
-
-
-
-
-
-[a]Preferred Date Time format is actually YYYY-MM-DD, like in this case it would be 2013-08-22
-[b]I think this would go as 'individual', but good point. I think this is going to be changed in the next medford update.
-[c]Another good point, there will need to be a special field for funding grant number.
-[d]I would say no, unless it is important to the method and not just to postpone work.
-[e]In the future, when a MEDFORD file is used to make a bag, the csv will be in that bag so this should be a non-issue
