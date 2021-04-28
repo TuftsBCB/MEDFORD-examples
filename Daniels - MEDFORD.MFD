@@ -1,109 +1,86 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/16/21
 
-
 ________________
-
-
-
 
 @Paper Metatranscriptome analysis of the reef-building coral Orbicella faveolata indicates holobiont response to coral disease
 @Paper-Link https://doi.org/10.3389/fmars.2015.00062
-
 
 @Journal Frontiers in Marine Science
 @Journal-Volume 2
 @Journal-Issue 62
 
-
 @Date 2015-05-14:00:00:00
 @Date-Note Received
-
 
 @Date 2015-08-18:00:00:00
 @Date-Note Accepted
 
-
 @Date 2015-09-11:00:00:00
 @Date-Note Published
-
 
 @Contributor Camille A. Daniels
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role First Author
 @Contributor-Type Individual
 
-
 @Contributor Sebastian Baumgarten
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Lauren K. Rum
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Craig T. Michell
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Till Bayer
 @Contributor-Association GEOMAR Department: Evolutionary Ecology of Marine Fishes, GEOMAR Helmholtz Centre for Ocean Research, Kiel, Germany
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Chatchanit Arif
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Cornelia Roder
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Ernesto Weil
 @Contributor-Association Department of Marine Sciences, University of Puerto Rico, Mayaguez, Puerto Rico
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Christian R. Voolstra
 @Contributor-Association Division of Biological and Environmental Science and Engineering, Red Sea Research Center, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
-
 @Contributor Shajahan Ali
 @Contributor-Note Experimental design and data analysis
 @Contributor-Type Individual
-
 
 @Contributor Department of Marine Sciences, University of Puerto Rico
 @Contributor-Note Logistical support and laboratory space
 @Contributor-Type Individual
 
-
 @Contributor AEA KAUST Grant
 @Contributor-Type Funding
 
+#Important to note the difference between OCE vs IOS NSF grants? 
+@Funding National Science Foundation
+@Funding-ID OCE-1105143
 
-#How to note the difference between OCE vs IOS NSF grants? 
-@Contributor National Science Foundation (OCE -1105143)
-@Contributor-Type Funding
-
-
-@Contributor National Science Foundation (IOS # 1017510)
-@Contributor-Type Funding
-
+@Funding National Science Foundation
+@Funding-ID IOS # 1017510
 
 @Keyword Coral reef
 @Keyword Coral disease
@@ -111,20 +88,16 @@ ________________
 @Keyword Symbiodinium
 @Keyword Metaorganism
 
-
 @Species Orbicella faveolata
 @Species-Reef Weimberg
 @Species-Loc La Parguera, Puerto Rico
-
 
 @Method SCUBA
 @Method-Type Specimen collection
 @Method-Note Flash frozen in liquid nitrogen and stored at −80°C
 
-
 @Method DNEasy Plant kit
 @Method-Type Dna extraction
-
 
 @Method Magnetic bead-labeled oligo(dT)s
 @Method-Type mRNA separation
@@ -132,147 +105,115 @@ ________________
 @Method Subtractive hybridization
 @Method-Type Reducing rRNAs
 
-
 @Method autoclaved CryoCup
 @Method-Type DNA isolation
 
 @Method T7-amended rRNA primer sets
 @Method-Type DNA pooling
 
-
 @Method Qiagen RNeasy Kit
 @Method-Type RNA extraction
-
 
 @Method MinElute kit (Qiagen)
 @Method-Type RNA purification
 
-
 @Method Bioanalyzer
 @Method-Type RNA quality assessment
-
 
 @Method DynaBeads mRNA purification kit
 @Method-Type Eukaryotic polyA+ mRNA isolation
 
-
 @Method MessageAmp Kit II aRNA kit
 @Method-Type polyA+ fraction amplification
-
 
 @Method TruSeq v1 kit
 @Method-Type Overlapping paired-end libraries
 
-
 @Method single HiSeq2000 lane sequence
 @Method-Type Sample multiplexing
-
 
 @Method Illustra ExoStar One Step kit
 @Method-Type Cleaned DGGE-PCR products
 
-
 @Method Illustra ExoStar One Step kit
 @Method-Type Cleaned ITS2 DGGE-PCR products
-
 
 @Software FastQC software
 @Software-Type Imported all paired-end libraries
 @Software-Note Applied to inform downstream processing and filtering
 
-
 @Software Trimmomatic-0.22
 @Software-Type Adapter removal, read and quality trimming
 @Software-Note 4 bp sliding window was applied to retain bases with quality scores > 20
 
-
 @Software ALLPATHS-LG v.47609 standalone module
 @Software-Type Error-corrected Trimmed paired-end reads from the polyA+ libraries
-
 
 @Software Trinity pipeline
 @Software-Type Assembled polyA+ libraries
 Software-Version r20131110
 @Software-Note To generate a de novo reference transcriptome
 
-
 @Software BLASTX
 @Software-Type Determined reference assembly annotations 
 @Software-Note Applied queries against SwissProt and TrEMBL
-
 
 @Software SwissProt/TrEMBL ID mapping
 @Software-Type Gene ontology annotations
 @Software-Note Mapped to UniProt-GOA database
 
-
 @Software UniProt KnowledgeBase
 @Software-Type Protein domains assignment
 @Software-Note Applied by InterProScan
-
 
 @Software Bowtie2
 @Software-Type polyA+ libraries were mapped to the reference transcriptome
 @Software-Version 2.1.0
 
-
 @Software SAMtools
 @Software-Type Create sorted BAM files of polyA+ libraries
 @Software-Version 0.1.18
-
 
 @Software eXpress
 @Software-Type Analyzed sorted BAM files of polyA+ libraries
 @Software-Version 1.3.0
 @Software-Note Quantified transcript abundances for each gene
 
-
 @Software Perl Script
 @Software-Type Merged paired-end reads for each polyA− library
-
 
 @Software MG-RAST
 @Software-Type Imported paired-end reads for each polyA− library
 @Software-Version 3.3.2.1
 @Software-Note bacterial mRNAs from the polyA− fractions were queried against the M5NR database
 
-
 @Software Codon Code Aligner
 @Software-Type Quality-trimmed sequences
-
 
 @Data Sequence overview, statistics, and gene expression in healthy and WPD affected samples of Orbicella faveolata
 @Data-URI https://www.frontiersin.org/files/Articles/152043/fmars-02-00062-r2/image_m/fmars-02-00062-t001.jpg
 @Data-Type JPEG Image
 @Data-Size 207KB
 
-
 @Data Overview of transcriptional response and affected biological processes in the Orbicella faveolata coral holobiont in White Plague Disease
 @Data-URI https://www.frontiersin.org/files/Articles/152043/fmars-02-00062-r2/image_m/fmars-02-00062-g001.jpg
 @Data-Type JPEG Image
 @Data-Size 199KB
-
 
 @Data Bacterial community and family composition of Orbicella faveolata
 @Data-URI https://www.frontiersin.org/files/Articles/152043/fmars-02-00062-r2/image_m/fmars-02-00062-t002.jpg
 @Data-Type JPEG Image
 @Data-Size 307KB
 
-
 @Data Top 10 bacterial family distributions for highly abundant genes in coral disease
 @Data-URI https://www.frontiersin.org/files/Articles/152043/fmars-02-00062-r2/image_m/fmars-02-00062-g002.jpg
 @Data-Type JPEG Image
 @Data-Size 650KB
 
-
 @Data Determined Sequence data
 @Data-URI https://www.ncbi.nlm.nih.gov/bioproject/?term=289876
 @Data-Note Sequence data determined in this study have been deposited in the NCBI Sequence Read Archive under PRJNA289876
 
-
 @Data polyA− sequence data
 @Data-URI https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp11266
 @Data-Note The polyA− sequence data were deposited in the MG-RAST Metagenomics Analysis Server
-
-
-#Include additional supplementary data if no link and not mentioned in the article?
