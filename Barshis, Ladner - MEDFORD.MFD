@@ -1,28 +1,20 @@
 ﻿Annotation by Jay-Miguel Fonticella
 Last Update 3/21/21
 
-
 ________________
-
-
-
 
 @Paper Genomic basis for coral resilience to climate change
 @Paper-Link https://doi.org/10.1073/pnas.1210224110
-
 
 @Journal Molecular Biology and Evolution
 @Journal-Volume 31
 @Journal-Issue 6
 
-
 @Date 2014-03-20:00:00:00
 @Date-Note Accepted
 
-
 @Date 2014-06-06:00:00:00
 @Date-Note Published
-
 
 @Contributor Daniel J. Barshis
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
@@ -30,101 +22,80 @@ ________________
 @Contributor-Email barshis@gmail.com
 @Contributor-Type Individual
 
-
 @Contributor Jason T. Ladner
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
 @Contributor-Type Individual
-
 
 @Contributor Thomas A. Oliver
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
 @Contributor-Type Individual
 
-
 @Contributor Stephen R. Palumbi
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Last Author
 @Contributor-Type Individual
 
-
 @Contributor P. Craig
 @Contributor-Note Logistical help
 @Contributor-Type Individual
-
 
 @Contributor T. Clark
 @Contributor-Note Logistical help
 @Contributor-Type Individual
 
-
 @Contributor C. Caruso
 @Contributor-Note Logistical help
 @Contributor-Type Individual
-
 
 @Contributor P. Craig
 @Contributor-Note Logistical help
 @Contributor-Type Individual
 
-
 @Contributor C.S. McKeon
 @Contributor-Note Field assistance
 @Contributor-Type Individual
-
 
 @Contributor J. Pringle
 @Contributor-Note Field assistance
 @Contributor-Type Individual
 
-
 @Contributor J. DeNofrio
 @Contributor-Note Field assistance
 @Contributor-Type Individual
-
 
 @Contributor G. Ruiz-Jones
 @Contributor-Note Data analysis
 @Contributor-Type Individual
 
-
 @Contributor R. Bay
 @Contributor-Note Data analysis
 @Contributor-Type Individual
 
-
-@Contributor Gordon and Betty Moore Foundation
-@Contributor-Type Funding
-
+@Funding Gordon and Betty Moore Foundation
 
 @Keyword Symbiodinium
 @Keyword Thermal stress
 @Keyword Transcriptomics
 @Keyword Coral
 
-
 @Species Acropora hyacinthus
 @Species-Reef South Side Back
 @Species-Loc Ofu Island, American Samoa
 @Species-Note Small branchlets (∼2 cm3) collected from 16 coral colonies (14°11′S, 169°36′W)
 
-
 @Method RNALater (Life Technologies)
 @Method-Type Coral sample preservation
-
 
 @Method Clade specific reads
 @Method-Type mRNA library counting
 
-
 @Method Ambion RNAqueous 4-PCR kit
 @Method-Type RNA extraction
 
-
 @Method Zirconia/Silica Beads (BioSpec Products, Inc.)
 @Method-Type Tissue homogenization
-
 
 @Method Illumina library construction
 @Method-Type mRNA library assembly
@@ -133,31 +104,25 @@ ________________
 @Method Illumina TruSeq mRNA Sample preparation kit
 @Method-Type cDNA libraries construction
 
-
 @Method Illumina HiSeq platform
 @Method-Type cDNA library pooling
-
 
 @Software CLC Genomics Workbench
 @Software-Type de novo assembly
 @Software-Version 4
 @Software-Note Included only the sequence libraries with ≥95% of a single Symbiodinium clade
 
-
 @Software OrfPredictor
 @Software-Type Determined open reading frames and protein sequences
 @Software-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
-
 
 @Software InParanoid
 @Software-Type identify orthologous sequences between clades based on protein-level similarity
 @Software-Version v4.1
 
-
 @Software BWA
 @Software-Type Sequence data mapping
 @Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
-
 
 @Software Picard
 @Software-Type Duplicate read identification
@@ -170,34 +135,28 @@ ________________
 @Software-Version R v3.5.2
 @Software-Note Used reads per kilobase per million reads (RPKM) normalization method 
 
-
 @Software heatmap.2 function of the R package gplots
 @Software-Type Expression heat map generation
 @Software-Version R v3.0-8
 
-
 @Software GOEAST
 @Software-Type Determination of statistically overrepresented GO categories
 @Software-Note Determined using default statistical tests and multiple-testing adjustments
-
 
 @Data Heat map of the 483 differentially expressed orthologs between type D and type C
 @Data-URI https://academic.oup.com/view-large/figure/74403947/msu107f1p.jpeg
 @Data-Type PPTX file
 @Data-Size 214KB
 
-
 @Data Hierarchical clustering of gene expression profiles across the 4,800 type C and type D orthologs
 @Data-URI https://academic.oup.com/view-large/figure/74403948/msu107f2p.jpeg
 @Data-Type PPTX file
 @Data-Size 151KB
 
-
 @Data Functional Enrichment Analysis of Contigs with Significant Expression Differences due to Type as Computed in GOEAST
 @Data-URI https://academic.oup.com/view-large/74403950
 @Data-Type WebP file
 @Data-Size 2.3MB
-
 
 @Data Gene Expression Summary for All Contigs with Putative Annotation as Hsp70, Hsp90, or CytP450
 @Data-URI https://academic.oup.com/view-large/74403961
