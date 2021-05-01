@@ -106,22 +106,25 @@ ________________
 @Method Illumina HiSeq platform
 @Method-Type cDNA library pooling
 
+@Software FASTX-Toolkit
+@Software-Type Raw sequences poor-quality portion trimming
+@Software-Note Used to remove any potential adapter sequences
+@Software-Reference http://hannonlab.cshl.edu/fastx_toolkit/
+
 @Software CLC Genomics Workbench
 @Software-Type de novo assembly
 @Software-Version 4
 @Software-Note Included only the sequence libraries with ≥95% of a single Symbiodinium clade
+@Software-Reference dx.doi.org/10.5061/dryad.bc0v0
 
-@Software OrfPredictor
-@Software-Type Determined open reading frames and protein sequences
-@Software-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
+@Software Uniprot
+@Software-Type Aligned final list of putatively coral, metaassembled contigs
+@Software-Reference www.uniprot.org
 
-@Software InParanoid
-@Software-Type identify orthologous sequences between clades based on protein-level similarity
-@Software-Version v4.1
-
-@Software BWA
+@Software Burrow’sWheeler aligner (BWA)
 @Software-Type Sequence data mapping
 @Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
+@Software-Reference http://bio-bwa.sourceforge.net/bwa.shtml
 
 @Software Picard
 @Software-Type Duplicate read identification
@@ -132,15 +135,18 @@ ________________
 @Software DESeq
 @Software-Type Sequencing data normalization
 @Software-Version R v3.5.2
-@Software-Note Used reads per kilobase per million reads (RPKM) normalization method 
+@Software-Note Used reads per kilobase per million reads (RPKM) normalization method
+@Software-Reference http://www.bioconductor.org/
 
-@Software heatmap.2 function of the R package gplots
-@Software-Type Expression heat map generation
+@Software  pvclust function in R
+@Software-Type Hierarchical clustering performance 
 @Software-Version R v3.0-8
+@Software-Reference https://cran.r-project.org/
 
 @Software GOEAST
 @Software-Type Determination of statistically overrepresented GO categories
 @Software-Note Determined using default statistical tests and multiple-testing adjustments
+@Software-Reference http://omicslab.genetics.ac.cn/GOEAST/
 
 @Data Heat map of the 483 differentially expressed orthologs between type D and type C
 @Data-URI https://academic.oup.com/view-large/figure/74403947/msu107f1p.jpeg
