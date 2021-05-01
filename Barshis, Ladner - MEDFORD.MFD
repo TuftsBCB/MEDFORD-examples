@@ -138,7 +138,7 @@ ________________
 @Software-Note Used reads per kilobase per million reads (RPKM) normalization method
 @Software-Reference http://www.bioconductor.org/
 
-@Software  pvclust function in R
+@Software pvclust function in R
 @Software-Type Hierarchical clustering performance 
 @Software-Version R v3.0-8
 @Software-Reference https://cran.r-project.org/
