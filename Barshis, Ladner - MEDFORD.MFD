@@ -106,22 +106,17 @@ ________________
 @Method Illumina HiSeq platform
 @Method-Type cDNA library pooling
 
-@Software FASTX-Toolkit
-@Software-Type Raw sequences poor-quality portion trimming
-@Software-Note Used to remove any potential adapter sequences
-@Software-Reference http://hannonlab.cshl.edu/fastx_toolkit/
+@Software OrfPredictor
+@Software-Type Determined open reading frames and protein sequences
+@Software-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
+@Software-Reference https://fungalgenome.concordia.ca/tools/OrfPredictor.html
 
-@Software CLC Genomics Workbench
-@Software-Type de novo assembly
-@Software-Version 4
-@Software-Note Included only the sequence libraries with ≥95% of a single Symbiodinium clade
-@Software-Reference dx.doi.org/10.5061/dryad.bc0v0
+@Software InParanoid
+@Software-Type identify orthologous sequences between clades based on protein-level similarity
+@Software-Version v4.1
+@Software-Reference http://www.cgb.ki.se/inparanoid/
 
-@Software Uniprot
-@Software-Type Aligned final list of putatively coral, metaassembled contigs
-@Software-Reference www.uniprot.org
-
-@Software Burrow’sWheeler aligner (BWA)
+@Software BWA
 @Software-Type Sequence data mapping
 @Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
 @Software-Reference http://bio-bwa.sourceforge.net/bwa.shtml
@@ -135,13 +130,13 @@ ________________
 @Software DESeq
 @Software-Type Sequencing data normalization
 @Software-Version R v3.5.2
-@Software-Note Used reads per kilobase per million reads (RPKM) normalization method
-@Software-Reference http://www.bioconductor.org/
+@Software-Note Used reads per kilobase per million reads (RPKM) normalization method 
+@Software-Reference https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218662/bin/gb-2010-11-10-r106-S2.PDF
 
-@Software pvclust function in R
-@Software-Type Hierarchical clustering performance 
+@Software as.phlyo option in the R package ape
+@Software-Type Hierarchical clustering
 @Software-Version R v3.0-8
-@Software-Reference https://cran.r-project.org/
+@Software-Reference http://cran.r-project.org/src/contrib/PACKAGES.html#ape
 
 @Software GOEAST
 @Software-Type Determination of statistically overrepresented GO categories
