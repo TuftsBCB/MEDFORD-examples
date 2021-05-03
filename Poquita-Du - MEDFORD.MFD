@@ -99,36 +99,44 @@ ________________
 @Software-Type Examine the effects on coral photo-physiological performance
 @Software-Version R v1.6.0
 @Software-Note Both Fv/Fm and chl a concentration (continuous data) were fitted to linear mixed-effects models
+@Software-Reference https://www.r-project.org/
 
 @Software Trinity
 @Software-Type consolidation of the entire set of transcripts for each genotype
 @Software-Version 2.2.0
 @Software-Note all sequence reads from the same genotype (regardless of experimental treatments) were combined and assembled, de novo
+@Software-Reference http://trinityrnaseq.sourceforge.net/
 
 @Software Trimmomatic (built-in Trinity tool)
 @Software-Type Quality trimming
 @Software-Note removal of poor-quality reads with Phred quality score < 20, and adapter sequences
+@Software-Reference http://trinityrnaseq.sourceforge.net/
 
 @Software Transdecoder
 @Software-Type Identify open reading frames
 @Software-Version 3.0.0
+@Software-Reference 
 
 @Software CD-HIT
 @Software-Type Redundant transcript sequence removal
 @Software-Note Removed through clustering analysis of transcripts that showed 100% nucleotide sequence similarities for both strands
+@Software-Reference http://weizhongli-lab.org/cd-hit/ref.php
 
-@Software Blastn
+@Software RNAmmer
 @Software-Type Ribosomal RNA (rRNA) contamination removal
 @Software-Note removed based on nucleotide sequence similarity (blastn, evalue ≤ 1e-5) to curated rRNA data
+@Software-Reference http://www.cbs.dtu.dk/services/RNAmmer
 
-@Software CLC Genomics Workbench
-@Software-Type Differential gene expression (DGE) analysis
-@Software-Version 10.0.1
-@Software-Note Performed using the RNA-Seq Analysis tool
+@Software CPCe
+@Software-Type Symbiodiniaceae density calculation and normalization
+@Software-Version V4.1
+@Software-Note Measured to coral surface area
+@Software-Reference http://www.nova.edu/ocean/cpce/index.html
 
 @Software UniProtKB
 @Software-Type Annotate the DEGs
 @Software-Note Annotate significant blastx matches with likely functional profiles [i.e., Gene Ontology (GO) terms]
+@Software-Reference http://www.uniprot.org/
 
 @Data Results from linear mixed-effects model on the effects of different treatments on Fv/Fm and chl a concentration, using control as the reference category (intercept)
 @Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t002.jpg
