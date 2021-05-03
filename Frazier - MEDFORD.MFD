@@ -204,7 +204,7 @@ ________________
 @Software-Type Transcript identity and putative function assessment
 @Software-Version 2.3.0
 @Software-Note Search against the National Center for Biotechnology Information non-redundant and Uniprot peptide databases
-@Software-Reference
+@Software-Reference https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins
 
 @Software HMMER
 @Software-Type Transcript identity and putative function assessment
