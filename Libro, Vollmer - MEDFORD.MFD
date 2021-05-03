@@ -81,31 +81,36 @@ ________________
 @Method Illumina mRNA-seq
 @Method-Type RNAseq library preparation
 
-@Software Illumina GAII platform 
-@Software-Type Sequencing Multiplexed paired-end libraries
-@Software-Note Sequenced at FAS Center for System Biology at Harvard University
+@Method Illumina GAII platform 
+@Method-Type Sequencing Multiplexed paired-end libraries
+@Method-Note Sequenced at FAS Center for System Biology at Harvard University
 
 @Software Perl Scripts in the FASTX-Toolkit
 @Software-Type De-multiplexing, read trimming and thinning
 @Software-Version 0.0.13
+@Software-Reference http://hannonlab.cshl.edu/fastx_toolkit/
 
 @Software tBLASTx
 @Software-Type Performed functional annotation
 @Software-Note Used an e-value cutoff less than 10-5 against the Swiss-Prot and TReMBL protein databases
+@Software-Reference https://doi.org/10.1016/S0022-2836(05)80360-2
 
-@Software Gene ontology (GO) terms and manually curated categories
+@Software Uniprot
 @Software-Type Gene functions retrieval for the annotated transcripts
 @Software-Note Used to highlight presence of immune related domains or a putative immune role based on the literature
+@Software-Reference http://www.uniprot.org
 
 @Software DESeq2
 @Software-Type Differential expression analysis
 @Software-Version Rv3.5.2
 @Software-Note Identified coral transcripts that differed significantly in their expression between the two disease resistance phenotypes 
+@Software-Reference http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
 @Software GENE-E
 @Software-Type Visualized differential genotype expression
 @Software-Version Rv1.6.0
 @Software-Note A clustered heat map of the differentially (DE) transcripts was created using log-transformed normalized count data
+@Software-Reference https://software.broadinstitute.org/GENE-E/
 
 @Data Differential expression analyses of RNA-seq data for staghorn coral resistance phenotypes and exposure treatments
 @Data-URI https://doi.org/10.1371/journal.pone.0146636.g002
