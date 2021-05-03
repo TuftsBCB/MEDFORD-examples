@@ -115,7 +115,7 @@ ________________
 @Software Transdecoder
 @Software-Type Identify open reading frames
 @Software-Version 3.0.0
-@Software-Reference 
+@Software-Reference https://github.com/TransDecoder/TransDecoder
 
 @Software CD-HIT
 @Software-Type Redundant transcript sequence removal
