@@ -104,7 +104,7 @@ ________________
 
 @Software R package DESeq
 @Software-Type Gene expression analysis
-@Software-Version Rv3.5.2
+@Software-Version v3.5.2
 @Software-Note Differences in gene expression between healthy and disease
 @Software-Reference http://TrinityRNASeq.sourceforge.net
 
