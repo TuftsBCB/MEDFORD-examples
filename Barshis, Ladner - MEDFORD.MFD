@@ -110,6 +110,7 @@ ________________
 @Software-Type Determined open reading frames and protein sequences
 @Software-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
 @Software-Reference https://fungalgenome.concordia.ca/tools/OrfPredictor.html
+@Software-Reference https://www.ncbi.nlm.nih.gov/orffinder/
 
 @Software InParanoid
 @Software-Type identify orthologous sequences between clades based on protein-level similarity
