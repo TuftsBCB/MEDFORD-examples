@@ -104,7 +104,8 @@ ________________
 @Software arrayQualityMetrics
 @Software-Type RNAseq read count matrix
 @Software-Note Checked for outliers and was transformed (variance stabilizing transformation (VST)) to be visualized using a principal component analysis (PCA)
-@Software-Reference http://www.microarray-quality.org
+@Software-Reference http://www.bioconductor.org/
+@Software-Reference http://www.microarray-quality.org/quality_metrics.html
 
 @Software TopHat2 
 @Software-Type RNAseq reads mapped onto the Acropora millepora genome
