@@ -99,25 +99,25 @@ ________________
 @Software-Type Statistically overrepresented gene ontology (GO) categories were determined
 @Software-Version 3.1.1
 @Software-Note Use the hypergeometric test in BiNGO and a FDR significance level of < 0.01 on the set of genes that were differentially up- or down-regulated in each dataset 
-@Software-Reference http://cytoscape.org
+@Software-URI http://cytoscape.org
 
 @Software arrayQualityMetrics
 @Software-Type RNAseq read count matrix
 @Software-Note Checked for outliers and was transformed (variance stabilizing transformation (VST)) to be visualized using a principal component analysis (PCA)
-@Software-Reference http://www.bioconductor.org/
-@Software-Reference http://www.microarray-quality.org/quality_metrics.html
+@Software-URI http://www.bioconductor.org/
+@Software-URI http://www.microarray-quality.org/quality_metrics.html
 
 @Software TopHat2 
 @Software-Type RNAseq reads mapped onto the Acropora millepora genome
 @Software-Note  Produced a count data gene expression matrix for subsequent analysis
-@Software-Reference http://ccb.jhu.edu/software/tophat/index.shtml
-@Software-Reference https://github.com/infphilo/tophat
+@Software-URI http://ccb.jhu.edu/software/tophat/index.shtml
+@Software-URI https://github.com/infphilo/tophat
 
 @Software DESeq2
 @Software-Type Log2 fold changes (log2FC) in gene expression levels
 @Software-Version R v1.4.5
 @Software-Note Designed a formula for differential gene expression that tests for the effects of salinity, controlling for the effect of the colony type and running the default functions for estimating size factors, dispersion and negative binomial Wald Test.
-@Software-Reference http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
 @Data Heatmap (log2FC) summarising expression relative to 35 PSU controls of the suite of 98 genes which responded (FDR < 0.05) in all four salinity treatments
 @Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/1
