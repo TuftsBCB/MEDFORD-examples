@@ -72,8 +72,7 @@ ________________
 @Contributor-Note Logistical support and laboratory space
 @Contributor-Type Individual
 
-@Contributor AEA KAUST Grant
-@Contributor-Type Funding
+@Funding AEA KAUST Grant
 
 #Important to note the difference between OCE vs IOS NSF grants? 
 @Funding National Science Foundation
@@ -141,56 +140,56 @@ ________________
 @Software FastQC software
 @Software-Type Imported all paired-end libraries
 @Software-Note Applied to inform downstream processing and filtering
-@Software-Reference http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc
+@Software-URI http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc
 
 @Software Trimmomatic-0.22
 @Software-Type Adapter removal, read and quality trimming
 @Software-Note 4 bp sliding window was applied to retain bases with quality scores > 20
-@Software-Reference http://www.usadellab.org/cms/index.php?page=trimmomatic
+@Software-URI http://www.usadellab.org/cms/index.php?page=trimmomatic
 
 @Software ALLPATHS-LG standalone module
 @Software-Type Error-corrected Trimmed paired-end reads from the polyA+ libraries
 @Software-Version v.47609
-@Software-Reference http://www.broadinstitute.org/science/programs/genome-biology/crd
+@Software-URI http://www.broadinstitute.org/science/programs/genome-biology/crd
 
 @Software Trinity pipeline
 @Software-Type Assembled polyA+ libraries
 Software-Version r20131110
 @Software-Note To generate a de novo reference transcriptome
-@Software-Reference http://www.ebi.ac.uk/interpro/
+@Software-URI http://www.ebi.ac.uk/interpro/
 
 @Software SwissProt/TrEMBL ID mapping
 @Software-Type Gene ontology annotations
 @Software-Note Mapped to UniProt-GOA database
-@Software-Reference http://www.ebi.ac.uk/swissprot/
-@Software-Reference http://www.expasy.org/sprot/
+@Software-URI http://www.ebi.ac.uk/swissprot/
+@Software-URI http://www.expasy.org/sprot/
 
 @Software UniProt KnowledgeBase
 @Software-Type Protein domains assignment
 @Software-Note Applied by InterProScan
-@Software-Reference http://www.ebi.ac.uk/GOA
+@Software-URI http://www.ebi.ac.uk/GOA
 
 @Software Bowtie2
 @Software-Type polyA+ libraries were mapped to the reference transcriptome
 @Software-Version 2.1.0
-@Software-Reference http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+@Software-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
 @Software SAMtools
 @Software-Type Create sorted BAM files of polyA+ libraries
 @Software-Version 0.1.18
-@Software-Reference http://samtools.sourceforge.net/
+@Software-URI http://samtools.sourceforge.net/
 
 @Software eXpress
 @Software-Type Analyzed sorted BAM files of polyA+ libraries
 @Software-Version 1.3.0
 @Software-Note Quantified transcript abundances for each gene
-@Software-Reference http://bio.math.berkeley.edu/eXpress/
+@Software-URI http://bio.math.berkeley.edu/eXpress/
 
 @Software MG-RAST
 @Software-Type Imported paired-end reads for each polyA− library
 @Software-Version 3.3.2.1
 @Software-Note bacterial mRNAs from the polyA− fractions were queried against the M5NR database
-@Software-Reference ftp://ftp.theseed.org
+@Software-URI ftp://ftp.theseed.org
 
 @Data Sequence overview, statistics, and gene expression in healthy and WPD affected samples of Orbicella faveolata
 @Data-URI https://www.frontiersin.org/files/Articles/152043/fmars-02-00062-r2/image_m/fmars-02-00062-t001.jpg
