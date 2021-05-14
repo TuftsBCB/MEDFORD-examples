@@ -99,44 +99,44 @@ ________________
 @Software FASTX-Toolkit
 @Software-Type Raw sequences poor-quality portion trimming
 @Software-Note Used to remove any potential adapter sequences
-@Software-Reference http://hannonlab.cshl.edu/fastx_toolkit/
+@Software-URI http://hannonlab.cshl.edu/fastx_toolkit/
 
 @Software CLC Genomics Workbench
 @Software-Type de novo assembly
 @Software-Version 4
 @Software-Note Included only the sequence libraries with ≥95% of a single Symbiodinium clade
-@Software-Reference dx.doi.org/10.5061/dryad.bc0v0
+@Software-URI dx.doi.org/10.5061/dryad.bc0v0
 
 @Software Uniprot
 @Software-Type Aligned final list of putatively coral, metaassembled contigs
-@Software-Reference www.uniprot.org
+@Software-URI www.uniprot.org
 
 @Software Burrow’sWheeler aligner (BWA)
 @Software-Type Sequence data mapping
 @Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
-@Software-Reference http://bio-bwa.sourceforge.net/bwa.shtml
+@Software-URI http://bio-bwa.sourceforge.net/bwa.shtml
 
 @Software Picard
 @Software-Type Duplicate read identification
 @Software-Version v1.43
 @Software-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
-@Software-Reference https://broadinstitute.github.io/picard/
+@Software-URI https://broadinstitute.github.io/picard/
 
 @Software DESeq
 @Software-Type Sequencing data normalization
 @Software-Version R v3.5.2
 @Software-Note Used reads per kilobase per million reads (RPKM) normalization method
-@Software-Reference http://www.bioconductor.org/
+@Software-URI http://www.bioconductor.org/
 
 @Software pvclust function in R
 @Software-Type Hierarchical clustering performance 
 @Software-Version R v3.0-8
-@Software-Reference https://cran.r-project.org/
+@Software-URI https://cran.r-project.org/
 
 @Software GOEAST
 @Software-Type Determination of statistically overrepresented GO categories
 @Software-Note Determined using default statistical tests and multiple-testing adjustments
-@Software-Reference http://omicslab.genetics.ac.cn/GOEAST/
+@Software-URI http://omicslab.genetics.ac.cn/GOEAST/
 
 @Data Venn diagram showing the number of differentially expressed genes detected during analysis based on temperature, location, within-location temperature response, and within-treatment location differences
 @Data-URI https://www.pnas.org/content/pnas/110/4/1387/F2.large.jpg
