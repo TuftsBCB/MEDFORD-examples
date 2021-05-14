@@ -78,33 +78,33 @@ ________________
 @Software Bowtie 2 
 @Software-Type Demultiplexed reads mapping
 @Software-Note de novo gene assembly
-@Software-Reference http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+@Software-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
 @Software SAMtools
 @Software-Type Calculate raw gene expression counts
 @Software-Note Tabulated from quality filtered mapped reads
-@Software-Reference http://samtools.sourceforge.net
+@Software-URI http://samtools.sourceforge.net
 
 @Software DESeq2
 @Software-Type Contig average read depth filter
 @Software-Note Normalized for library size
-@Software-Reference http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
 @Software DESeq2
 @Software-Type Tested for changes in expression over time
 @Software-Note Calculated Log2 fold change (Log2FC) and highest expressed genes at each time point
-@Software-Reference http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
 @Software DAVID
 @Software-Type Contig functional enrichment analysis
 @Software-Version v6.8
 @Software-Note Contigs that were significantly differentially expressed were further analyzed
-@Software-Reference https://david.ncifcrf.gov/
+@Software-URI https://david.ncifcrf.gov/
 
 @Software BLASTx 
 @Software-Type Tested differentially expressed contigs for functional enrichments
 @Software-Note Tested among the corresponding best BLASTx matches to the UniProt database
-@Software-Reference https://david.ncifcrf.gov/
+@Software-URI https://david.ncifcrf.gov/
 
 @Data Overall gene expression and DAVID enrichment
 @Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg1.gif
