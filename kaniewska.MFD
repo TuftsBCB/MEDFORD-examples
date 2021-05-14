@@ -118,17 +118,17 @@ ________________
 @Software-Type Normalization and data analysis of acquired array slides
 @Software-Version R v1.8.18
 @Software-Note Analyzed differential gene expression using empirical Bayes shrinkage of variance and linear regression models
-@Software-Reference https://cran.r-project.org/
+@Software-URI https://cran.r-project.org/
 
 @Software TIGR TMEV
 @Software-Type Principal component analysis
 @Software-Note Differentially expressed genes at day 1 and 28 were then assembled into 6 different clusters based on their temporal gene expression patterns
-@Software-Reference https://www.future-science.com/doi/pdf/10.2144/03342mt01
+@Software-URI https://www.future-science.com/doi/pdf/10.2144/03342mt01
 
 @Software GeNorm software
 @Software-Type Analyzing the expression stability
 @Software-Note The selection of reference genes for this experiment was done by using a pool of reference genes
-@Software-Reference http://omicslab.genetics.ac.cn/GOEAST/
+@Software-URI http://omicslab.genetics.ac.cn/GOEAST/
 
 #Software example without reference
 @Software STATISTICA
@@ -138,7 +138,7 @@ ________________
 
 @Software GeNorm
 @Software-Type Expression stability analysis
-@Software-Reference https://genorm.cmgg.be/
+@Software-URI https://genorm.cmgg.be/
 
 @Data Graphical representation of differentially expressed genes in Acropora millepora across pCO2 treatments (control, medium and high) at day 1 and 28
 @Data-URI https://doi.org/10.1371/journal.pone.0034659.g001
