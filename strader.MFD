@@ -86,35 +86,35 @@ ________________
 @Software ImageJ
 @Software-Type Individual larval color measurements
 @Software-Note Red Green Blue (RGB) values
-@Software-Reference https://imagej.nih.gov/ij/docs/intro.html
+@Software-URI https://imagej.nih.gov/ij/docs/intro.html
 
 @Software Bowtie2
 @Software-Type Genotype reads adaptor-trimmed, quality filtered and deduplicated
 @Software-Note A per-sample counts file was generated using a custom perl script that sums up reads for all isoforms of a gene while discarding reads mapping to more than one gene.
-@Software-Reference http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+@Software-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
 @Software DESeq2
 @Software-Type Size factors and dispersion estimates
 @Software-Version Rv3.1.2
 @Software-Note Used to broadly characterize differences in gene expression through development with the package adegenet and Significance was assessed using the multivariate analysis of variance function, adonis, in the vegan package
-@Software-Reference http://dx.doi.org/10.1101/002832
+@Software-URI http://dx.doi.org/10.1101/002832
 
 @Software GO_MWU package
 @Software-Type Modules were characterized by Gene Ontology (GO) enrichment
 @Software-Version Rv3.1.2
 @Software-Note Implemented Fishers exact test
-@Software-Reference https://github.com/z0on/GO_MWU
+@Software-URI https://github.com/z0on/GO_MWU
 
 @Software DESeq2
 @Software-Type Identified genes associated with competence
 @Software-Version  Rv3.1.2
-@Software-Reference http://dx.doi.org/10.1101/002832
+@Software-URI http://dx.doi.org/10.1101/002832
 
 @Software MCMCglmm
 @Software-Type Significance of drug treatment on metamorphosis examination
 @Software-Version 2.32
 @Software-Note Used binomial models associating counts of metamorphosed and swimming larvae with fixed effect of drug/control
-@Software-Reference http://dx.doi.org/10.18637/jss.v033.i02
+@Software-URI http://dx.doi.org/10.18637/jss.v033.i02
 
 @Data Complex traits in early life stages of Acropora millepora
 @Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/1
