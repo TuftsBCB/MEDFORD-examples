@@ -109,40 +109,40 @@ ________________
 @Software OrfPredictor
 @Software-Type Determined open reading frames and protein sequences
 @Software-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
-@Software-Reference https://fungalgenome.concordia.ca/tools/OrfPredictor.html
-@Software-Reference https://www.ncbi.nlm.nih.gov/orffinder/
+@Software-URI https://fungalgenome.concordia.ca/tools/OrfPredictor.html
+@Software-URI https://www.ncbi.nlm.nih.gov/orffinder/
 
 @Software InParanoid
 @Software-Type identify orthologous sequences between clades based on protein-level similarity
 @Software-Version v4.1
-@Software-Reference http://www.cgb.ki.se/inparanoid/
+@Software-URI http://www.cgb.ki.se/inparanoid/
 
 @Software BWA
 @Software-Type Sequence data mapping
 @Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
-@Software-Reference http://bio-bwa.sourceforge.net/bwa.shtml
+@Software-URI http://bio-bwa.sourceforge.net/bwa.shtml
 
 @Software Picard
 @Software-Type Duplicate read identification
 @Software-Version v1.43
 @Software-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
-@Software-Reference https://broadinstitute.github.io/picard/
+@Software-URI https://broadinstitute.github.io/picard/
 
 @Software DESeq
 @Software-Type Sequencing data normalization
 @Software-Version R v3.5.2
 @Software-Note Used reads per kilobase per million reads (RPKM) normalization method 
-@Software-Reference https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218662/bin/gb-2010-11-10-r106-S2.PDF
+@Software-URI https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218662/bin/gb-2010-11-10-r106-S2.PDF
 
 @Software as.phlyo option in the R package ape
 @Software-Type Hierarchical clustering
 @Software-Version R v3.0-8
-@Software-Reference http://cran.r-project.org/src/contrib/PACKAGES.html#ape
+@Software-URI http://cran.r-project.org/src/contrib/PACKAGES.html#ape
 
 @Software GOEAST
 @Software-Type Determination of statistically overrepresented GO categories
 @Software-Note Determined using default statistical tests and multiple-testing adjustments
-@Software-Reference http://omicslab.genetics.ac.cn/GOEAST/
+@Software-URI http://omicslab.genetics.ac.cn/GOEAST/
 
 @Data Heat map of the 483 differentially expressed orthologs between type D and type C
 @Data-URI https://academic.oup.com/view-large/figure/74403947/msu107f1p.jpeg
