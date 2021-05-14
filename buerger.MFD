@@ -113,43 +113,43 @@ ________________
 @Software STAR
 @Software-Type Mapped algal symbiont and coral host reads 
 @Software-Version 2.5.3
-@Software-Reference https://github.com/alexdobin/STAR/releases
+@Software-URI https://github.com/alexdobin/STAR/releases
 
 @Software Local DIAMOND Blastx scan
 @Software-Type Genome annotation
 Software-Version 10.12.2018
 @Software-Note using an e-value cutoff of <10−5
-@Software-Reference http://ab.inf.uni-tuebingen.de/software/diamond
+@Software-URI http://ab.inf.uni-tuebingen.de/software/diamond
 
 @Software Blast2GO
 @Software-Type Corrected genome annotations
 Software-Version 5.0.8
 @Software-Note InterProScan applied to obtain GO categories
-@Software-Reference https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
+@Software-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
 
 @Software Limma Linear models for microarray data
 @Software-Type Gene expression matrix processing
 Software-Version R v3.36.5
 @Software-Note Exon expression was collated to gene expression
-@Software-Reference https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
+@Software-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
 
 @Software GOseq
 @Software-Type GO enrichment
 Software-Version R v1.34.1
 @Software-Note To assess respective unique adaptations of the strains, significantly DEGs that were unique for the respective sample groups were used for GO enrichment
-@Software-Reference http://bioinf.wehi.edu.au/software/goseq/
+@Software-URI http://bioinf.wehi.edu.au/software/goseq/
 
 @Software UNITE
 @Software-Type Generalized linear models of physiological measurements
 Software-Version v3.5.1
 @Software-Note Physiological measurements (cell densities, chlorophyll measurements, and ROS) were tested for significant differences between WT and SS strains 
-@Software-Reference https://unite.ut.ee/
+@Software-URI https://unite.ut.ee/
 
 @Software R package adonis
 @Software-Type Gene expression profile analysis
 Software-Version R v2.5-4
 @Software-Note Permutational multivariate analysis of variance using distance matrices
-@Software-Reference https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/0/aba2498_Database_S1.zip
+@Software-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/0/aba2498_Database_S1.zip
 
 @Data In vitro thermal tolerance assessment of heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
 @Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F1.large.jpg
