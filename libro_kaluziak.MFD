@@ -85,28 +85,28 @@ ________________
 @Software Perl Scripts in the FASTX-Toolkit
 @Software-Type Raw sequencing read quality trimming
 @Software-Note Remove sequences and regions with a Phred score of less than 30 and a read length less than 15bp long
-@Software-Reference http://hannonlab. cshl.edu/fastx_toolkit/
+@Software-URI http://hannonlab. cshl.edu/fastx_toolkit/
 
 @Software Trinity method
 @Software-Type Full-length transcriptome assembly
 @Software-Note Assembled a de novo transcriptome from the coral host, its algal symbiont Symbiodinium, and other members of the coral holobiont
-@Software-Reference http://TrinityRNASeq.sourceforge.net
+@Software-URI http://TrinityRNASeq.sourceforge.net
 
 @Software Uniprot
 @Software-Type Holobiont resolution 
 @Software-Note Classify the source of the assembled transcripts as either coral or non-coral
-@Software-Reference http://www.uniprot.org
+@Software-URI http://www.uniprot.org
 
 @Software BLAST
 @Software-Type Putative gene identification
 @Software-Note Identified by performing homology searches against the Swiss-Prot and TReMBLE protein databases
-@Software-Reference https://doi.org/10.1016/S0022-2836(05)80360-2
+@Software-URI https://doi.org/10.1016/S0022-2836(05)80360-2
 
 @Software R package DESeq
 @Software-Type Gene expression analysis
 @Software-Version v3.5.2
 @Software-Note Differences in gene expression between healthy and disease
-@Software-Reference http://TrinityRNASeq.sourceforge.net
+@Software-URI http://TrinityRNASeq.sourceforge.net
 
 @Data Summary of coral and non-coral transcripts
 @Data-Type CSV file
