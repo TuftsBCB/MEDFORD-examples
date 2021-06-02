@@ -3,8 +3,8 @@ Last Update 3/17/21
 
 ________________
 
-@Paper Transcriptomic analysis reveals protein homeostasis breakdown in the coral Acropora millepora during hypo-saline stress
-@Paper-Link https://doi.org/10.1186/s12864-019-5527-2
+@Paper_Primary Transcriptomic analysis reveals protein homeostasis breakdown in the coral Acropora millepora during hypo-saline stress
+@Paper_Primary-Link https://doi.org/10.1186/s12864-019-5527-2
 
 @Journal BMC Genomics
 @Journal-Volume 20
@@ -22,49 +22,39 @@ ________________
 @Contributor Catalina Aguilar
 @Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
 @Contributor-Role First Author
-@Contributor-Type Individual
 
 @Contributor Jean-Baptiste Raina
 @Contributor-Association AIMS@JCU and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Sylvain Fôret
 @Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor David C. Hayward
 @Contributor-Association Division of Ecology and Evolution, Research School of Biology, Australian National University, Canberra, ACT, 2601, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Bruno Lapeyre
 @Contributor-Association Laboratoire d’excellence CORAIL, Centre de Recherches Insulaires et Observatoire de l’Environnement (CRIOBE), Moorea, B.P.1013, Papeete, French Polynesia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor David G. Bourne
 @Contributor-Association Australian Institute of Marine Science, Townsville, Queensland, 4810, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor David J. Miller
 @Contributor-Association IMS@JCU and Department of Molecular and Cell Biology, James Cook University, Townsville, Queensland, 4811, Australia
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor Victor Beltran
 @Contributor-Note Technical support
-@Contributor-Type Individual
 
 @Contributor Simon Davy
 @Contributor-Note permission to cite unpublished thesis results
-@Contributor-Type Individual
 
 @Contributor Andrew Negri
 @Contributor-Note Providing the coral larvae and extracts of crustose coralline algae, respectively, and assistance during the experiments
-@Contributor-Type Individual
 
 @Funding AIMS@JCU scholarship
 
@@ -95,50 +85,51 @@ ________________
 @Method HiSeq 2000 at the Biomolecular Resource Facility
 @Method-Type 100 bp paired-end sequence data
 
-@Software Cytoscape
-@Software-Type Statistically overrepresented gene ontology (GO) categories were determined
-@Software-Version 3.1.1
-@Software-Note Use the hypergeometric test in BiNGO and a FDR significance level of < 0.01 on the set of genes that were differentially up- or down-regulated in each dataset 
-@Software-URI http://cytoscape.org
+@Code_Ref Cytoscape
+@Code_Ref-Type Statistically overrepresented gene ontology (GO) categories were determined
+@Code_Ref-Version 3.1.1
+@Code_Ref-Note Use the hypergeometric test in BiNGO and a FDR significance level of < 0.01 on the set of genes that were differentially up- or down-regulated in each dataset 
+@Code_Ref-URI http://cytoscape.org
 
-@Software arrayQualityMetrics
-@Software-Type RNAseq read count matrix
-@Software-Note Checked for outliers and was transformed (variance stabilizing transformation (VST)) to be visualized using a principal component analysis (PCA)
-@Software-URI http://www.bioconductor.org/
-@Software-URI http://www.microarray-quality.org/quality_metrics.html
+@Code_Ref arrayQualityMetrics
+@Code_Ref-Type RNAseq read count matrix
+@Code_Ref-Note Checked for outliers and was transformed (variance stabilizing transformation (VST)) to be visualized using a principal component analysis (PCA)
+@Code_Ref-URI http://www.bioconductor.org/
+@Code_Ref-URI http://www.microarray-quality.org/quality_metrics.html
 
-@Software TopHat2 
-@Software-Type RNAseq reads mapped onto the Acropora millepora genome
-@Software-Note  Produced a count data gene expression matrix for subsequent analysis
-@Software-URI http://ccb.jhu.edu/software/tophat/index.shtml
-@Software-URI https://github.com/infphilo/tophat
+@Code_Ref TopHat2 
+@Code_Ref-Type RNAseq reads mapped onto the Acropora millepora genome
+@Code_Ref-Note  Produced a count data gene expression matrix for subsequent analysis
+@Code_Ref-URI http://ccb.jhu.edu/software/tophat/index.shtml
+@Code_Ref-URI https://github.com/infphilo/tophat
 
-@Software DESeq2
-@Software-Type Log2 fold changes (log2FC) in gene expression levels
-@Software-Version R v1.4.5
-@Software-Note Designed a formula for differential gene expression that tests for the effects of salinity, controlling for the effect of the colony type and running the default functions for estimating size factors, dispersion and negative binomial Wald Test.
-@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Code_Ref DESeq2
+@Code_Ref-Type Log2 fold changes (log2FC) in gene expression levels
+@Code_Ref-Version R v1.4.5
+@Code_Ref-Note Designed a formula for differential gene expression that tests for the effects of salinity, controlling for the effect of the colony type and running the default functions for estimating size factors, dispersion and negative binomial Wald Test.
+@Code_Ref-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
-@Data Heatmap (log2FC) summarising expression relative to 35 PSU controls of the suite of 98 genes which responded (FDR < 0.05) in all four salinity treatments
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/1
-@Data-Type WebP File
-@Data-Size 126KB
+@Data_Ref Heatmap (log2FC) summarising expression relative to 35 PSU controls of the suite of 98 genes which responded (FDR < 0.05) in all four salinity treatments
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/1
+@Data_Ref-Type WebP File
+@Data_Ref-Size 126KB
 
-@Data Differential expression of A. millepora homologues of components of the ER protein processing machinery (pathway 04141) after exposure of adult corals to 1 and 24 h of hypo-saline conditions
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/2
-@Data-Type WebP File
-@Data-Size 290KB
+@Data_Ref Differential expression of A. millepora homologues of components of the ER protein processing machinery (pathway 04141) after exposure of adult corals to 1 and 24 h of hypo-saline conditions
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/2
+@Data_Ref-Type WebP File
+@Data_Ref-Size 290KB
 
-@Data Expression of A. millepora homologues of genes involved in amino acid metabolism during hypo-osmotic stress in adult and juvenile corals
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/3
-@Data-Type WebP File
-@Data-Size 150KB
+@Data_Ref Expression of A. millepora homologues of genes involved in amino acid metabolism during hypo-osmotic stress in adult and juvenile corals
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5527-2/figures/3
+@Data_Ref-Type WebP File
+@Data_Ref-Size 150KB
 
-@Data Total number of differentially expressed genes (DEGs) (FDR < 0.05) for each dataset
-@Data-URI https://static-content.springer.com/esm/art%3A10.1186%2Fs12864-019-5527-2/MediaObjects/12864_2019_5527_MOESM2_ESM.png
-@Data-Type PNG Image
-@Data-Size 54KB
+@Data_Ref Total number of differentially expressed genes (DEGs) (FDR < 0.05) for each dataset
+@Data_Ref-URI https://static-content.springer.com/esm/art%3A10.1186%2Fs12864-019-5527-2/MediaObjects/12864_2019_5527_MOESM2_ESM.png
+@Data_Ref-Type PNG Image
+@Data_Ref-Size 54KB
 
-@Data Differentially expressed genes and their GO as in the heat map 
-@Data-Type Xlsx file
-@Data-Size 122KB
+@Data_Copy Differentially expressed genes and their GO as in the heat map 
+@Data_Copy-Type Xlsx file
+@Data_Copy-Size 122KB
+TODO: Add a copy of this file to this subdirectory!
