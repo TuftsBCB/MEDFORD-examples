@@ -3,51 +3,45 @@ Last Update 3/17/21
 
 ________________
 
-@Paper Elevated CO2 delays early development of scleractinian coral Acropora gemmifera
-@Paper-Link https://doi.org/10.1038/s41598-018-21267-3
+@Paper_Primary Elevated CO2 delays early development of scleractinian coral Acropora gemmifera
+@Paper_Primary-Link https://doi.org/10.1038/s41598-018-21267-3
 
 @Journal Scientific Reports
 @Journal-Volume 8
 @Journal-Issue 2787
 
-@Date 2017-06-02:00:00:00
+@Date 2017-06-02T00:00:00
 @Date-Note Received
 
-@Date 2018-02-01:00:00:00
+@Date 2018-02-01T00:00:00
 @Date-Note Accepted
 
-@Date 2018-02-12:00:00:00
+@Date 2018-02-12T00:00:00
 @Date-Note Published
 
 @Contributor Xiangcheng Yuan
 @Contributor-Association CAS Key Laboratory of Tropical Marine Bio-resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
 @Contributor-Role First Author
-@Contributor-Type Individual
 
 @Contributor Tao Yuan
 @Contributor-Association CAS Key Laboratory of Tropical Marine Bio-resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Hui Huang
 @Contributor-Association Tropical Marine Biological Research Station in Hainan, Chinese Academy of Sciences, Sanya, 572000, China
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Lei Jiang
 @Contributor-Association Guangdong Provincial Key Laboratory of Applied Marine Biology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Weihua Zhou
 @Contributor-Association Tropical Marine Biological Research Station in Hainan, Chinese Academy of Sciences, Sanya, 572000, China
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Sheng Liu
 @Contributor-Association CAS Key Laboratory of Tropical Marine Bio-resources and Ecology, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510000, China
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Funding The Strategic Priority Research Program of the Chinese Academy of Sciences
 @Funding-ID XDA13020403
@@ -97,78 +91,78 @@ ________________
 @Method Illumina HiSeq™ 2000 sequencing platform
 @Method-Type Sequenced the cDNA library
 
-@Software ToupView
-@Software-Type Diameter of live tissue measurement
-@Software-Version 3.7
-@Software-URI http://www.touptek.com/product/showproduct.php?lang=en&id=103
+@Code_Ref ToupView
+@Code_Ref-Type Diameter of live tissue measurement
+@Code_Ref-Version 3.7
+@Code_Ref-URI http://www.touptek.com/product/showproduct.php?lang=en&id=103
 
-@Software Trinity program
-@Software-Type clean reads were de novo assembled into contigs
-@Software-Note The read coverage in each sample roughly exhibited a similar distribution
-@Software-URI http://trinityrnaseq.sourceforge.net/
+@Code_Ref Trinity program
+@Code_Ref-Type clean reads were de novo assembled into contigs
+@Code_Ref-Note The read coverage in each sample roughly exhibited a similar distribution
+@Code_Ref-URI http://trinityrnaseq.sourceforge.net/
 
-@Software BLASTx
-@Software-Type Annotated all unigenes
-@Software-Note Annotated against the NCBI Nr and KEGG pathway databases, with an E-value cut-off of 1E-5
-@Software-URI http://www.ncbi.nlm.nih.gov/genbank/
-@Software-URI http://www.genome.jp/kegg/pathway.html
+@Code_Ref BLASTx
+@Code_Ref-Type Annotated all unigenes
+@Code_Ref-Note Annotated against the NCBI Nr and KEGG pathway databases, with an E-value cut-off of 1E-5
+@Code_Ref-URI http://www.ncbi.nlm.nih.gov/genbank/
+@Code_Ref-URI http://www.genome.jp/kegg/pathway.html
 
-@Software Blast2GO
-@Software-Type unigenes were classified in terms of molecular function, biological process, and cellular component
-@Software-URI http://www.blast2go.de
+@Code_Ref Blast2GO
+@Code_Ref-Type unigenes were classified in terms of molecular function, biological process, and cellular component
+@Code_Ref-URI http://www.blast2go.de
 
-@Software Solexa/Illumina RNA-seq
-@Software-Type Annotated differentially expressed genes
-@Software-Note Using GO and KEGG enrichment analyses
-@Software-URI http://www.genomics.cn/index
+@Code_Ref Solexa/Illumina RNA-seq
+@Code_Ref-Type Annotated differentially expressed genes
+@Code_Ref-Note Using GO and KEGG enrichment analyses
+@Code_Ref-URI http://www.genomics.cn/index
 
-@Software Cross_Match
-@Software-Type Assess differential gene expression
-@Software-Note Estimated with log2 fold change
-@Software-URI http://www.phrap.org/
+@Code_Ref Cross_Match
+@Code_Ref-Type Assess differential gene expression
+@Code_Ref-Note Estimated with log2 fold change
+@Code_Ref-URI http://www.phrap.org/
 
-@Software Expdiff
-@Software-Type differential gene expression analysis of the two experimental groups was determined
-@Software-Note High CO2 treatment vs control
-@Software-URI https://rdrr.io/bioc/CeTF/man/expDiff.html
+@Code_Ref Expdiff
+@Code_Ref-Type differential gene expression analysis of the two experimental groups was determined
+@Code_Ref-Note High CO2 treatment vs control
+@Code_Ref-URI https://rdrr.io/bioc/CeTF/man/expDiff.html
 
-@Data Embryonic development and larval development of coral A. gemmifera 
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/1
-@Data-Type WebP File
-@Data-Size 99KB
+@Data_Ref Embryonic development and larval development of coral A. gemmifera 
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/figures/1
+@Data_Ref-Type WebP File
+@Data_Ref-Size 99KB
 
-@Data The larval settlement ratios and survivorship of new recruits after 3-day and 10-day settlement at different pH values
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/2
-@Data-Type WebP File
-@Data-Size 35KB
+@Data_Ref The larval settlement ratios and survivorship of new recruits after 3-day and 10-day settlement at different pH values
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/figures/2
+@Data_Ref-Type WebP File
+@Data_Ref-Size 35KB
 
-@Data Progressive morphological changes in A. gemmifera
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/3
-@Data-Type WebP File
-@Data-Size 146KB
+@Data_Ref Progressive morphological changes in A. gemmifera
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/figures/3
+@Data_Ref-Type WebP File
+@Data_Ref-Size 146KB
 
-@Data The skeletal structure on the 40th day after settlement
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/4
-@Data-Type WebP File
-@Data-Size 252KB
+@Data_Ref The skeletal structure on the 40th day after settlement
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/figures/4
+@Data_Ref-Type WebP File
+@Data_Ref-Size 252KB
 
-@Data The percentage of differentially expressed genes
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/figures/5
-@Data-Type WebP File
-@Data-Size 46KB
+@Data_Ref The percentage of differentially expressed genes
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/figures/5
+@Data_Ref-Type WebP File
+@Data_Ref-Size 46KB
 
-@Data Differential expressions of apoptosis-related genes
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/1
-@Data-Type Website
+@Data_Ref Differential expressions of apoptosis-related genes
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/tables/1
+@Data_Ref-Type Website
 
-@Data Differential expressions of ion transporter-related genes
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/2
-@Data-Type Website
+@Data_Ref Differential expressions of ion transporter-related genes
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/tables/2
+@Data_Ref-Type Website
 
-@Data Differential expressions of skeletal organic matrix-related genes
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/3
-@Data-Type Website
+@Data_Ref Differential expressions of skeletal organic matrix-related genes
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/tables/3
+@Data_Ref-Type Website
 
-@Data Values of pH, temperature (T), salinity, total alkalinity (TA), dissolved inorganic carbon (DIC), pCO2 and aragonite saturation state (ΩA) during incubations
-@Data-URI https://www.nature.com/articles/s41598-018-21267-3/tables/4
-@Data-Type Website
+@Data_Ref Values of pH, temperature (T), salinity, total alkalinity (TA), dissolved inorganic carbon (DIC), pCO2 and aragonite saturation state (ΩA) during incubations
+@Data_Ref-URI https://www.nature.com/articles/s41598-018-21267-3/tables/4
+@Data_Ref-Type Website
