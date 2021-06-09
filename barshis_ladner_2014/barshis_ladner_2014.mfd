@@ -3,75 +3,62 @@ Last Update 3/21/21
 
 ________________
 
-@Paper Lineage-Specific Transcriptional Profiles of Symbiodinium spp. Unaltered by Heat Stress in a Coral Host
-@Paper-Link https://doi.org/10.1093/molbev/msu107
+@Paper_Primary Lineage-Specific Transcriptional Profiles of Symbiodinium spp. Unaltered by Heat Stress in a Coral Host
+@Paper_Primary-Link https://doi.org/10.1093/molbev/msu107
 
 @Journal Molecular Biology and Evolution
 @Journal-Volume 31
 @Journal-Issue 6
 
-@Date 2014-03-20:00:00:00
+@Date 2014-03-20T00:00:00
 @Date-Note Accepted
 
-@Date 2014-06-06:00:00:00
+@Date 2014-06-06T00:00:00
 @Date-Note Published
 
 @Contributor Daniel J. Barshis
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role First Author
 @Contributor-Email barshis@gmail.com
-@Contributor-Type Individual
 
 @Contributor Jason T. Ladner
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Thomas A. Oliver
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Stephen R. Palumbi
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor P. Craig
 @Contributor-Note Logistical help
-@Contributor-Type Individual
 
 @Contributor T. Clark
 @Contributor-Note Logistical help
-@Contributor-Type Individual
 
 @Contributor C. Caruso
 @Contributor-Note Logistical help
-@Contributor-Type Individual
 
 @Contributor P. Craig
 @Contributor-Note Logistical help
-@Contributor-Type Individual
 
 @Contributor C.S. McKeon
 @Contributor-Note Field assistance
-@Contributor-Type Individual
 
 @Contributor J. Pringle
 @Contributor-Note Field assistance
-@Contributor-Type Individual
 
 @Contributor J. DeNofrio
 @Contributor-Note Field assistance
-@Contributor-Type Individual
 
 @Contributor G. Ruiz-Jones
 @Contributor-Note Data analysis
-@Contributor-Type Individual
 
 @Contributor R. Bay
 @Contributor-Note Data analysis
-@Contributor-Type Individual
 
 @Funding Gordon and Betty Moore Foundation
 
@@ -106,60 +93,60 @@ ________________
 @Method Illumina HiSeq platform
 @Method-Type cDNA library pooling
 
-@Software OrfPredictor
-@Software-Type Determined open reading frames and protein sequences
-@Software-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
-@Software-URI https://fungalgenome.concordia.ca/tools/OrfPredictor.html
-@Software-URI https://www.ncbi.nlm.nih.gov/orffinder/
+@Code_Ref OrfPredictor
+@Code_Ref-Type Determined open reading frames and protein sequences
+@Code_Ref-Note To minimize erroneous protein predictions, we utilized sequences only if they showed significant similarity to a known protein sequence
+@Code_Ref-URI https://fungalgenome.concordia.ca/tools/OrfPredictor.html
+@Code_Ref-URI https://www.ncbi.nlm.nih.gov/orffinder/
 
-@Software InParanoid
-@Software-Type identify orthologous sequences between clades based on protein-level similarity
-@Software-Version v4.1
-@Software-URI http://www.cgb.ki.se/inparanoid/
+@Code_Ref InParanoid
+@Code_Ref-Type identify orthologous sequences between clades based on protein-level similarity
+@Code_Ref-Version v4.1
+@Code_Ref-URI http://www.cgb.ki.se/inparanoid/
 
-@Software BWA
-@Software-Type Sequence data mapping
-@Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
-@Software-URI http://bio-bwa.sourceforge.net/bwa.shtml
+@Code_Ref BWA
+@Code_Ref-Type Sequence data mapping
+@Code_Ref-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
+@Code_Ref-URI http://bio-bwa.sourceforge.net/bwa.shtml
 
-@Software Picard
-@Software-Type Duplicate read identification
-@Software-Version v1.43
-@Software-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
-@Software-URI https://broadinstitute.github.io/picard/
+@Code_Ref Picard
+@Code_Ref-Type Duplicate read identification
+@Code_Ref-Version v1.43
+@Code_Ref-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
+@Code_Ref-URI https://broadinstitute.github.io/picard/
 
-@Software DESeq
-@Software-Type Sequencing data normalization
-@Software-Version R v3.5.2
-@Software-Note Used reads per kilobase per million reads (RPKM) normalization method 
-@Software-URI https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218662/bin/gb-2010-11-10-r106-S2.PDF
+@Code_Ref DESeq
+@Code_Ref-Type Sequencing data normalization
+@Code_Ref-Version R v3.5.2
+@Code_Ref-Note Used reads per kilobase per million reads (RPKM) normalization method 
+@Code_Ref-URI https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218662/bin/gb-2010-11-10-r106-S2.PDF
 
-@Software as.phlyo option in the R package ape
-@Software-Type Hierarchical clustering
-@Software-Version R v3.0-8
-@Software-URI http://cran.r-project.org/src/contrib/PACKAGES.html#ape
+@Code_Ref as.phlyo option in the R package ape
+@Code_Ref-Type Hierarchical clustering
+@Code_Ref-Version R v3.0-8
+@Code_Ref-URI http://cran.r-project.org/src/contrib/PACKAGES.html#ape
 
-@Software GOEAST
-@Software-Type Determination of statistically overrepresented GO categories
-@Software-Note Determined using default statistical tests and multiple-testing adjustments
-@Software-URI http://omicslab.genetics.ac.cn/GOEAST/
+@Code_Ref GOEAST
+@Code_Ref-Type Determination of statistically overrepresented GO categories
+@Code_Ref Determined using default statistical tests and multiple-testing adjustments
+@Code_Ref-URI http://omicslab.genetics.ac.cn/GOEAST/
 
-@Data Heat map of the 483 differentially expressed orthologs between type D and type C
-@Data-URI https://academic.oup.com/view-large/figure/74403947/msu107f1p.jpeg
-@Data-Type PPTX file
-@Data-Size 214KB
+@Data_Ref Heat map of the 483 differentially expressed orthologs between type D and type C
+@Data_Ref-URI https://academic.oup.com/view-large/figure/74403947/msu107f1p.jpeg
+@Data_Ref-Type PPTX file
+@Data_Ref-Size 214KB
 
-@Data Hierarchical clustering of gene expression profiles across the 4,800 type C and type D orthologs
-@Data-URI https://academic.oup.com/view-large/figure/74403948/msu107f2p.jpeg
-@Data-Type PPTX file
-@Data-Size 151KB
+@Data_Ref Hierarchical clustering of gene expression profiles across the 4,800 type C and type D orthologs
+@Data_Ref-URI https://academic.oup.com/view-large/figure/74403948/msu107f2p.jpeg
+@Data_Ref-Type PPTX file
+@Data_Ref-Size 151KB
 
-@Data Functional Enrichment Analysis of Contigs with Significant Expression Differences due to Type as Computed in GOEAST
-@Data-URI https://academic.oup.com/view-large/74403950
-@Data-Type WebP file
-@Data-Size 2.3MB
+@Data_Ref Functional Enrichment Analysis of Contigs with Significant Expression Differences due to Type as Computed in GOEAST
+@Data_Ref-URI https://academic.oup.com/view-large/74403950
+@Data_Ref-Type WebP file
+@Data_Ref-Size 2.3MB
 
-@Data Gene Expression Summary for All Contigs with Putative Annotation as Hsp70, Hsp90, or CytP450
-@Data-URI https://academic.oup.com/view-large/74403961
-@Data-Type WebP file
-@Data-Size 2.3MB
+@Data_Ref Gene Expression Summary for All Contigs with Putative Annotation as Hsp70, Hsp90, or CytP450
+@Data_Ref-URI https://academic.oup.com/view-large/74403961
+@Data_Ref-Type WebP file
+@Data_Ref-Size 2.3MB
