@@ -3,49 +3,43 @@ Last Update 3/16/21
 
 ________________
 
-@Paper RNA-seq Profiles of Immune Related Genes in the Staghorn Coral Acropora cervicornis Infected with White Band Disease
-@Paper-Link https://doi.org/10.1371/journal.pone.0081821
+@Paper_Primary RNA-seq Profiles of Immune Related Genes in the Staghorn Coral Acropora cervicornis Infected with White Band Disease
+@Paper_Primary-Link https://doi.org/10.1371/journal.pone.0081821
 
 @Journal PLoS ONE
 @Journal-Volume 8
 @Journal-Issue 11
 
-@Date 2013-08-22:00:00:00[a]
+@Date 2013-08-22T00:00:00
 @Date-Note Received
 
-@Date 2013-10-24:00:00:00
+@Date 2013-10-24T00:00:00
 @Date-Note Accepted
 
-@Date 2013-11-21:00:00:00
+@Date 2013-11-21T00:00:00
 @Date-Note Published
 
 @Contributor Silvia Libro
 @Contributor-Association Marine Science Center, Northeastern University, Nahant, Massachusetts, United States of America
 @Contributor-Role First Author
 @Contributor-Email libro.s@husky.neu.edu
-@Contributor-Type Individual
 
 @Contributor Stefan T. Kaluziak
 @Contributor-Association Marine Science Center, Northeastern University, Nahant, Massachusetts, United States of America
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Steven V. Vollmer
 @Contributor-Association Marine Science Center, Northeastern University, Nahant, Massachusetts, United States of America
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor Elizabeth Hemond
 @Contributor-Note Sample collection and library preparation
-@Contributor-Type Individual
 
 @Contributor Laura Geyer
 @Contributor-Note Field and logistical support
-@Contributor-Type Individual
 
 @Contributor Smithsonian Tropical Research Institute
 @Contributor-Note Field and logistical support
-@Contributor-Type Individual
 
 @Funding National Science Foundation
 @Funding-ID OCE 0751666
@@ -82,46 +76,46 @@ ________________
 @Method Multiplexed Illumina mRNA-seq protocol
 @Method-Type RNA sequencing
 
-@Software Perl Scripts in the FASTX-Toolkit
-@Software-Type Raw sequencing read quality trimming
-@Software-Note Remove sequences and regions with a Phred score of less than 30 and a read length less than 15bp long
-@Software-URI http://hannonlab. cshl.edu/fastx_toolkit/
+@Code_Ref Perl Scripts in the FASTX-Toolkit
+@Code_Ref-Type Raw sequencing read quality trimming
+@Code_Ref-Note Remove sequences and regions with a Phred score of less than 30 and a read length less than 15bp long
+@Code_Ref-URI http://hannonlab. cshl.edu/fastx_toolkit/
 
-@Software Trinity method
-@Software-Type Full-length transcriptome assembly
-@Software-Note Assembled a de novo transcriptome from the coral host, its algal symbiont Symbiodinium, and other members of the coral holobiont
-@Software-URI http://TrinityRNASeq.sourceforge.net
+@Code_Ref Trinity method
+@Code_Ref-Type Full-length transcriptome assembly
+@Code_Ref-Note Assembled a de novo transcriptome from the coral host, its algal symbiont Symbiodinium, and other members of the coral holobiont
+@Code_Ref-URI http://TrinityRNASeq.sourceforge.net
 
-@Software Uniprot
-@Software-Type Holobiont resolution 
-@Software-Note Classify the source of the assembled transcripts as either coral or non-coral
-@Software-URI http://www.uniprot.org
+@Code_Ref Uniprot
+@Code_Ref-Type Holobiont resolution 
+@Code_Ref-Note Classify the source of the assembled transcripts as either coral or non-coral
+@Code_Ref-URI http://www.uniprot.org
 
-@Software BLAST
-@Software-Type Putative gene identification
-@Software-Note Identified by performing homology searches against the Swiss-Prot and TReMBLE protein databases
-@Software-URI https://doi.org/10.1016/S0022-2836(05)80360-2
+@Code_Ref BLAST
+@Code_Ref-Type Putative gene identification
+@Code_Ref-Note Identified by performing homology searches against the Swiss-Prot and TReMBLE protein databases
+@Code_Ref-URI https://doi.org/10.1016/S0022-2836(05)80360-2
 
-@Software R package DESeq
-@Software-Type Gene expression analysis
-@Software-Version v3.5.2
-@Software-Note Differences in gene expression between healthy and disease
-@Software-URI http://TrinityRNASeq.sourceforge.net
+@Code_Ref R package DESeq
+@Code_Ref-Type Gene expression analysis
+@Code_Ref-Version v3.5.2
+@Code_Ref-Note Differences in gene expression between healthy and disease
+@Code_Ref-URI http://TrinityRNASeq.sourceforge.net
 
-@Data Summary of coral and non-coral transcripts
-@Data-Type CSV file
-@Data-Size 181 bytes
+@Data_Copy Summary of coral and non-coral transcripts
+@Data_Copy-Type CSV file
+@Data_Copy-Size 181 bytes
 
-@Data Volcano plots displaying differential gene expression between healthy and disease A. cervicornis
-@Data-URI https://doi.org/10.1371/journal.pone.0081821.g002
-@Data-Type TIFF image
-@Data-Size 398KB
+@Data_Ref Volcano plots displaying differential gene expression between healthy and disease A. cervicornis
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0081821.g002
+@Data_Ref-Type TIFF image
+@Data_Ref-Size 398KB
 
-@Data Heatmap of immune-related differentially expressed coral transcripts
-@Data-URI https://doi.org/10.1371/journal.pone.0081821.g003
-@Data-Type TIFF image
-@Data-Size 2.3MB
+@Data_Ref Heatmap of immune-related differentially expressed coral transcripts
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0081821.g003
+@Data_Ref-Type TIFF image
+@Data_Ref-Size 2.3MB
 
-@Data Summary of the main pathways involved in A.cervicornis response to WBD
-@Data-Type CSV file
-@Data-Size 3KB
+@Data_Copy Summary of the main pathways involved in A.cervicornis response to WBD
+@Data_Copy-Type CSV file
+@Data_Copy-Size 3KB
