@@ -3,8 +3,8 @@ Last Update 4/17/21
 
 ________________
 
-@Paper Heat-evolved microalgal symbionts increase coral bleaching tolerance
-@Paper-Link https://doi.org/10.1126/sciadv.aba2498
+@Paper_Primary Heat-evolved microalgal symbionts increase coral bleaching tolerance
+@Paper_Primary-Link https://doi.org/10.1126/sciadv.aba2498
 
 @Journal Science Advances
 @Journal-Volume 6
@@ -23,47 +23,38 @@ ________________
 @Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
 @Contributor-Role First Author
 @Contributor-Email patrick.buerger@csiro.au
-@Contributor-Type Individual
 
 @Contributor C. Alvarez-Roa
 @Contributor-Association Australian Institute of Marine Science, PMB #3, Townsville, QLD 4810, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor C. W. Coppin
 @Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor S. L. Pearce
 @Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor L. J. Chakravarti
 @Contributor-Association Australian Institute of Marine Science, PMB #3, Townsville, QLD 4810, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor J. G. Oakeshott
 @Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor O. R. Edwards
 @Contributor-Association CSIRO Synthetic Biology Future Science Platform, Land & Water, Black Mountain, ACT 2601, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor M. J. H. van Oppen
 @Contributor-Association School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia
 @Contributor-Role Last Author
 @Contributor-Email madeleine.van@unimelb.edu.au
-@Contributor-Type Individual
 
 @Contributor L. Hartman
 @Contributor-Note Graphical schematics
-@Contributor-Type Individual
 
 @Funding Australian Research Council Laureate Fellowship
 @Funding-ID FL180100036
@@ -110,68 +101,68 @@ ________________
 @Method NovaSeq 6000 with S1 flowcell kit
 @Method-Type Library sequencing
 
-@Software STAR
-@Software-Type Mapped algal symbiont and coral host reads 
-@Software-Version 2.5.3
-@Software-URI https://github.com/alexdobin/STAR/releases
+@Code_Ref STAR
+@Code_Ref-Type Mapped algal symbiont and coral host reads 
+@Code_Ref-Version 2.5.3
+@Code_Ref-URI https://github.com/alexdobin/STAR/releases
 
-@Software Local DIAMOND Blastx scan
-@Software-Type Genome annotation
-Software-Version 10.12.2018
-@Software-Note using an e-value cutoff of <10−5
-@Software-URI http://ab.inf.uni-tuebingen.de/software/diamond
+@Code_Ref Local DIAMOND Blastx scan
+@Code_Ref-Type Genome annotation
+@Code_Ref-Version 10.12.2018
+@Code_Ref-Note using an e-value cutoff of <10−5
+@Code_Ref-URI http://ab.inf.uni-tuebingen.de/software/diamond
 
-@Software Blast2GO
-@Software-Type Corrected genome annotations
-Software-Version 5.0.8
-@Software-Note InterProScan applied to obtain GO categories
-@Software-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
+@Code_Ref Blast2GO
+@Code_Ref-Type Corrected genome annotations
+@Code_Ref-Version 5.0.8
+@Code_Ref-Note InterProScan applied to obtain GO categories
+@Code_Ref-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
 
-@Software Limma Linear models for microarray data
-@Software-Type Gene expression matrix processing
-Software-Version R v3.36.5
-@Software-Note Exon expression was collated to gene expression
-@Software-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
+@Code_Ref Limma Linear models for microarray data
+@Code_Ref-Type Gene expression matrix processing
+@Code_Ref-Version R v3.36.5
+@Code_Ref-Note Exon expression was collated to gene expression
+@Code_Ref-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/2/aba2498_Database_S3.zip
 
-@Software GOseq
-@Software-Type GO enrichment
-Software-Version R v1.34.1
-@Software-Note To assess respective unique adaptations of the strains, significantly DEGs that were unique for the respective sample groups were used for GO enrichment
-@Software-URI http://bioinf.wehi.edu.au/software/goseq/
+@Code_Ref GOseq
+@Code_Ref-Type GO enrichment
+@Code_Ref-Version R v1.34.1
+@Code_Ref-Note To assess respective unique adaptations of the strains, significantly DEGs that were unique for the respective sample groups were used for GO enrichment
+@Code_Ref-URI http://bioinf.wehi.edu.au/software/goseq/
 
-@Software UNITE
-@Software-Type Generalized linear models of physiological measurements
-Software-Version v3.5.1
-@Software-Note Physiological measurements (cell densities, chlorophyll measurements, and ROS) were tested for significant differences between WT and SS strains 
-@Software-URI https://unite.ut.ee/
+@Code_Ref UNITE
+@Code_Ref-Type Generalized linear models of physiological measurements
+@Code_Ref-Version v3.5.1
+@Code_Ref-Note Physiological measurements (cell densities, chlorophyll measurements, and ROS) were tested for significant differences between WT and SS strains 
+@Code_Ref-URI https://unite.ut.ee/
 
-@Software R package adonis
-@Software-Type Gene expression profile analysis
-Software-Version R v2.5-4
-@Software-Note Permutational multivariate analysis of variance using distance matrices
-@Software-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/0/aba2498_Database_S1.zip
+@Code_Ref R package adonis
+@Code_Ref-Type Gene expression profile analysis
+@Code_Ref-Version R v2.5-4
+@Code_Ref-Note Permutational multivariate analysis of variance using distance matrices
+@Code_Ref-URI https://advances.sciencemag.org/highwire/filestream/230633/field_highwire_adjunct_files/0/aba2498_Database_S1.zip
 
-@Data In vitro thermal tolerance assessment of heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
-@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F1.large.jpg
-@Data-Type JPEG Image
-@Data-Size 128KB
+@Data_Ref In vitro thermal tolerance assessment of heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
+@Data_Ref-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F1.large.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 128KB
 
-@Data In hospite comparison of coral larvae bleaching tolerance between heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
-@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F2.large.jpg?width=800&height=600&carousel=1
-@Data-Type JPEG Image
-@Data-Size 104KB
+@Data_Ref In hospite comparison of coral larvae bleaching tolerance between heat-evolved (SS) and wild-type (WT) algal symbiont strains at 31°C
+@Data_Ref-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F2.large.jpg?width=800&height=600&carousel=1
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 104KB
 
-@Data Gene expression patterns of coral holobionts
-@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F3.large.jpg
-@Data-Type JPEG Image
-@Data-Size 157KB
+@Data_Ref Gene expression patterns of coral holobionts
+@Data_Ref-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F3.large.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 157KB
 
-@Data Relative expression of genes involved in specific physiological functions
-@Data-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F4.large.jpg?width=800&height=600&carousel=1
-@Data-Type JPEG Image
-@Data-Size 447KB
+@Data_Ref Relative expression of genes involved in specific physiological functions
+@Data_Ref-URI https://advances.sciencemag.org/content/advances/6/20/eaba2498/F4.large.jpg?width=800&height=600&carousel=1
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 447KB
 
-@Data Supplementary Data Material
-@Data-URI https://advances.sciencemag.org/content/suppl/2020/05/11/6.20.eaba2498.DC1
-@Data-Type PDF File
-@Data-Size 2.3MB
+@Data_Ref Supplementary Data Material
+@Data_Ref-URI https://advances.sciencemag.org/content/suppl/2020/05/11/6.20.eaba2498.DC1
+@Data_Ref-Type PDF File
+@Data_Ref-Size 2.3MB
