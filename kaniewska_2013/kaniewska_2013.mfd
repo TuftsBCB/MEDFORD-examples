@@ -122,7 +122,7 @@ ________________
 @Code_Ref-Note The selection of reference genes for this experiment was done by using a pool of reference genes
 @Code_Ref-URI http://omicslab.genetics.ac.cn/GOEAST/
 
-#Software example without reference
+#Software example without reference, no copy?
 @Code_Copy STATISTICA
 @Code_Copy-Type test for significance on the expression levels of mRNAs from quantitative real time PCR
 @Code_Copy-Version 7.0
