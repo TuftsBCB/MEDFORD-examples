@@ -1,0 +1,46 @@
+DE transcripts,N,Uniprot ID,Function,log2 (Fold Change)
+Immunity,69,,,
+  Macrophage-expressed gene 1 protein (n=2),,Q9WV57,complement related,2.2- 1.6 down
+  C-type lectin domain family 10 member A,,Q8IUN9,pathogen recognition receptor,5.39 up
+  C-type mannose receptor 2,,Q4TU93,pathogen recognition receptor,2.21 up
+  Collectin-12,,Q4V885,pathogen recognition receptor,4.10 up
+  Multiple epidermal growth factor-like domains     protein 10,,A0JM12,phagocytosis ,2.17 up
+  Putative actin-22,,Q553U6,phagocytosis ,1.56 up
+  Glutaredoxin,,Q9HU55,response to oxidative stress ,2.06 up
+  Peroxidasin homolog (n=3),,Q3UQ28,response to oxidative stress ,3.1-6.6 up
+  Golgi-associated plant pathogenesis-related protein 1  (n=3),,Q9H4G4,response to stress ,1.7- 3.5 up
+  Universal stress protein A-like protein (n=2),,Q8LGG8,response to stress ,2.5- 2.6 up
+  Cytochrome b-245 heavy chain,,O46522,superoxide anion generation ,2.35 up
+  Neutrophil cytosol factor 2,,O77775,superoxide anion generation ,2.66 up
+  NADPH oxidase 3,,Q672J9,superoxide anion generation ,2.19 up
+  TNF receptor-associated factor 3,,Q13114,toll,2.51 up
+  Toll-like receptor 2 (n=2),,B3Y618,toll,1.7-4.7 up
+Apoptosis ,18,,,
+  Caspase-3,,P70677,apoptotic process ,2.67 up
+  Caspase-8,,O89110,apoptotic process ,2.30 down 
+  Tumor necrosis factor receptor superfamily member 1A,,P19438,apoptotic process ,1.83 up
+  Thrombospondin-2,,P35440,pro-apoptosis ,7.20 up
+Arachidonic acid metabolism,6,,,
+  Phospholipase A2,,P08872,arachidonic acid metabolism,3.03 up
+  Allene oxide synthase-lipoxygenase protein (n=5),,O16025,allene oxide synthesis ,2.1 - 8.4 up
+Calcification,14,,,
+  Carbonic anhydrase 2 (n=2),,Q8UWA5,one-carbon metabolic process ,2.6 down, 2.7 up
+  Carbonic anhydrase 3,,Q5S1S4,one-carbon metabolic process ,1.77 up
+Calcium Homeostasis,,,,
+  Calmodulin (n=3),,Q8STF0,calcium ion binding ,2.4-4.0
+  Calumenin,,Q5RDD8,calcium ion binding ,2.74 up
+  Calsequestrin-2,,P19204,calcium ion binding ,1.75 up
+Cell growth and remodeling,135,,,
+  Polydom,,P0C6B8,cell adhesion ,1.9-5.3 up
+  Cellular processes,188,,,
+Metabolism,,,,
+  Fatty acid synthase,,P49327,fatty acid biosynthetic process ,2.28 down
+  Acetyl-CoA carboxylase,,P11029,fatty acid biosynthetic process ,1.88 down 
+  Acetyl-CoA carboxylase 1,,P11497,fatty acid biosynthetic process ,2.08 down
+  Long-chain-fatty-acid--CoA ligase 1,,P41216,fatty acid metabolic process ,4.45 up
+  Long-chain-fatty-acid--CoA ligase 5,,O88813,fatty acid metabolic process ,4.35 up
+  Pancreatic triacylglycerol lipase,,Q6P8U6,lipid catabolic process ,4.23 up
+  Pancreatic lipase-related protein 2,,P81139,lipid catabolic process ,2.89 up
+  Phospholipase DDHD1,,Q8NEL9,lipid catabolic process ,2.28 up
+Wnt,8,,,
+Unknown,55, , ,
