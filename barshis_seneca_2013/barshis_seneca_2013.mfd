@@ -145,3 +145,15 @@ ________________
 @Data_Ref Supporting Data Figures
 @Data_Ref-URI https://www.pnas.org/content/pnas/suppl/2013/01/02/1210224110.DCSupplemental/pnas.201210224SI.pdf?targetid=nameddest%3DST1
 @Data_Ref-Type xlsx file
+
+@Data_Copy Dataset S01
+@Data_Copy-Type Xlsx file
+@Data_Copy-Size 380KB
+
+@Data_Copy Dataset S02
+@Data_Copy-Type Xlsx file
+@Data_Copy-Size 148KB
+
+@Data_Copy Dataset S03
+@Data_Copy-Type Xlsx file
+@Data_Copy-Size 60KB
