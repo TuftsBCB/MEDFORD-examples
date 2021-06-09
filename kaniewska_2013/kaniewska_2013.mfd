@@ -3,61 +3,53 @@ Last Update 3/20/21
 
 ________________
 
-@Paper Major Cellular and Physiological Impacts of Ocean Acidification on a Reef Building Coral
-@Paper-Link https://doi.org/10.1371/journal.pone.0034659
+@Paper_Primary Major Cellular and Physiological Impacts of Ocean Acidification on a Reef Building Coral
+@Paper_Primary-Link https://doi.org/10.1371/journal.pone.0034659
 
 @Journal PLoS ONE
 @Journal-Volume 7
 @Journal-Issue 4
 
-@Date 2011-09-19:00:00:00
+@Date 2011-09-19T00:00:00
 @Date-Note Received
 
-@Date 2012-03-06:00:00:00
+@Date 2012-03-06T00:00:00
 @Date-Note Accepted
 
-@Date 2013-04-11:00:00:00
+@Date 2013-04-11T00:00:00
 @Date-Note Published
 
 @Contributor Paulina Kaniewska
 @Contributor-Association School of Biological Sciences, The University of Queensland, St Lucia, Queensland, Australia
 @Contributor-Role First Author
 @Contributor-Email p.kaniewska@aims.gov.au
-@Contributor-Type Individual
 
 @Contributor Paul R. Campbell 
 @Contributor-Association Agri-Science Queensland, Department of Employment, Economic Development and Innovation, Dutton Park, Queensland, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor David I. Kline
 @Contributor-Association School of Biological Sciences, The University of Queensland, St Lucia, Queensland, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Mauricio Rodriguez-Lanetty
 @Contributor-Association Department of Biology, University of Louisiana at Lafayette, Lafayette, Louisiana, United States of America
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor David J. Miller
 @Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Coral Genomics Group, School of Pharmacy and Molecular Sciences, James Cook University, Townsville, Queensland, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Sophie Dove
 @Contributor-Association School of Biological Sciences, The University of Queensland, St Lucia, Queensland, Australia
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Ove Hoegh-Guldberg
 @Contributor-Association ARC Centre of Excellence for Coral Reef Studies and Coral Genomics Group, School of Pharmacy and Molecular Sciences, James Cook University, Townsville, Queensland, Australia
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor A. Forrest
 @Contributor-Note Experimental discussions
-@Contributor-Type Individual
 
 @Funding Australian Research Council Centre for Excellence for Coral Reef Studies
 
@@ -114,58 +106,62 @@ ________________
 @Method GenePix Pro (Molecular Devices, CA, USA)
 @Method-Type Microarray slide image acquisition
 
-@Software R limma package
-@Software-Type Normalization and data analysis of acquired array slides
-@Software-Version R v1.8.18
-@Software-Note Analyzed differential gene expression using empirical Bayes shrinkage of variance and linear regression models
-@Software-URI https://cran.r-project.org/
+@Code_Ref R limma package
+@Code_Ref-Type Normalization and data analysis of acquired array slides
+@Code_Ref-Version R v1.8.18
+@Code_Ref-Note Analyzed differential gene expression using empirical Bayes shrinkage of variance and linear regression models
+@Code_Ref-URI https://cran.r-project.org/
 
-@Software TIGR TMEV
-@Software-Type Principal component analysis
-@Software-Note Differentially expressed genes at day 1 and 28 were then assembled into 6 different clusters based on their temporal gene expression patterns
-@Software-URI https://www.future-science.com/doi/pdf/10.2144/03342mt01
+@Code_Ref TIGR TMEV
+@Code_Ref-Type Principal component analysis
+@Code_Ref-Note Differentially expressed genes at day 1 and 28 were then assembled into 6 different clusters based on their temporal gene expression patterns
+@Code_Ref-URI https://www.future-science.com/doi/pdf/10.2144/03342mt01
 
-@Software GeNorm software
-@Software-Type Analyzing the expression stability
-@Software-Note The selection of reference genes for this experiment was done by using a pool of reference genes
-@Software-URI http://omicslab.genetics.ac.cn/GOEAST/
+@Code_Ref GeNorm software
+@Code_Ref-Type Analyzing the expression stability
+@Code_Ref-Note The selection of reference genes for this experiment was done by using a pool of reference genes
+@Code_Ref-URI http://omicslab.genetics.ac.cn/GOEAST/
 
 #Software example without reference
-@Software STATISTICA
-@Software-Type test for significance on the expression levels of mRNAs from quantitative real time PCR
-@Software-Version 7.0
-@Software-Note For each gene a Welch t-test was used
+@Code_Copy STATISTICA
+@Code_Copy-Type test for significance on the expression levels of mRNAs from quantitative real time PCR
+@Code_Copy-Version 7.0
+@Code_Copy-Note For each gene a Welch t-test was used
 
-@Software GeNorm
-@Software-Type Expression stability analysis
-@Software-URI https://genorm.cmgg.be/
+@Code_Ref GeNorm
+@Code_Ref-Type Expression stability analysis
+@Code_Ref-URI https://genorm.cmgg.be/
 
-@Data Graphical representation of differentially expressed genes in Acropora millepora across pCO2 treatments (control, medium and high) at day 1 and 28
-@Data-URI https://doi.org/10.1371/journal.pone.0034659.g001
-@Data-Type TIFF Image
-@Data-Size 1.9MB
+@Data_Ref Graphical representation of differentially expressed genes in Acropora millepora across pCO2 treatments (control, medium and high) at day 1 and 28
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0034659.g001
+@Data_Ref-Type TIFF Image
+@Data_Ref-Size 1.9MB
 
-@Data Classification analysis for Acropora millepora transcripts that were differentially expressed across pCO2 treatments (control, medium and high) at day 1 and 28
-@Data-URI https://doi.org/10.1371/journal.pone.0034659.g002
-@Data-Type TIFF Image
-@Data-Size 2MB
+@Data_Ref Classification analysis for Acropora millepora transcripts that were differentially expressed across pCO2 treatments (control, medium and high) at day 1 and 28
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0034659.g002
+@Data_Ref-Type TIFF Image
+@Data_Ref-Size 2MB
 
-@Data Log2 relative expression of selected genes using quantitative real-time PCR
-@Data-URI https://doi.org/10.1371/journal.pone.0034659.g003
-@Data-Type TIFF Image
-@Data-Size 675KB
+@Data_Ref Log2 relative expression of selected genes using quantitative real-time PCR
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0034659.g003
+@Data_Ref-Type TIFF Image
+@Data_Ref-Size 675KB
 
-@Data Carbonate chemistry parametersa across experimental conditions
-@Data-URI https://doi.org/10.1371/journal.pone.0034659.t001
-@Data-Type TIFF Image
+@Data_Ref Carbonate chemistry parametersa across experimental conditions
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0034659.t001
+@Data_Ref-Type TIFF Image
 @Data-Size 154KB
 
-@Data The effect of increasing CO2 in seawater (control, medium and high) after 28 days on coral-algal physiology
-@Data-URI https://doi.org/10.1371/journal.pone.0034659.g004
-@Data-Type TIFF Image
-@Data-Size 1.4MB
+@Data_Ref The effect of increasing CO2 in seawater (control, medium and high) after 28 days on coral-algal physiology
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0034659.g004
+@Data_Ref-Type TIFF Image
+@Data_Ref-Size 1.4MB
 
-@Data Principal component analysis of gene expression for 3 acidification treatments; control (c), medium (m) and high (h) and 3 time points: T0 (t), day 1 (d) and day 28 (m)
-@Data-URI https://doi.org/10.1371/journal.pone.0034659.s001
-@Data-Type EPS file
-@Data-Size 1.9MB
+@Data_Ref Principal component analysis of gene expression for 3 acidification treatments; control (c), medium (m) and high (h) and 3 time points: T0 (t), day 1 (d) and day 28 (m)
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0034659.s001
+@Data_Ref-Type EPS file
+@Data_Ref-Size 1.9MB
+
+@Data_Copy Annotated list of differentially expressed transcripts for Acropora millepora between CO2 at day 1 and day 28
+@Data_Copy-Type Xls file
+@Data_Copy-Size 262KB
