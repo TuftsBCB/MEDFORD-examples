@@ -3,52 +3,45 @@ Last Update 3/17/21
 
 ________________
 
-@Paper Molecular characterization of larval development from fertilization to metamorphosis in a reef-building coral
-@Paper-Link https://doi.org/10.1186/s12864-017-4392-0
+@Paper_Primary Molecular characterization of larval development from fertilization to metamorphosis in a reef-building coral
+@Paper_Primary-Link https://doi.org/10.1186/s12864-017-4392-0
 
 @Journal BMC Genomics
 @Journal-Volume 19
 @Journal-Issue 17
 
-@Date 2012-09-26:00:00:00
+@Date 2012-09-26T00:00:00
 @Date-Note Received
 
-@Date 2017-12-15:00:00:00
+@Date 2017-12-15T00:00:00
 @Date-Note Accepted
 
-@Date 2018-01-04:00:00:00
+@Date 2018-01-04T00:00:00
 @Date-Note Published
 
 @Contributor Marie. E Strader
 @Contributor-Association Department of Integrative Biology, The University of Texas at Austin, 1 University Station C0990, Austin, TX, 78712, USA
 @Contributor-Role First Author
-@Contributor-Type Individual
 
 @Contributor Galina V. Aglyamova
 @Contributor-Association Department of Integrative Biology, The University of Texas at Austin, 1 University Station C0990, Austin, TX, 78712, USA
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Mikhail V. Matz
 @Contributor-Association Department of Integrative Biology, The University of Texas at Austin, 1 University Station C0990, Austin, TX, 78712, USA
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor SW Davies
 @Contributor-Note Planning, larval culturing and performing experiments
-@Contributor-Type Individual
 
 @Contributor KM Quigley
 @Contributor-Note Planning, larval culturing and performing experiments
-@Contributor-Type Individual
 
 @Contributor GB Dixon
 @Contributor-Note Planning, larval culturing and performing experiments
-@Contributor-Type Individual
 
 @Contributor CD Kenkel
 @Contributor-Note Planning, larval culturing and performing experiments
-@Contributor-Type Individual
 
 @Funding National Science Foundation DDIG Award
 @Funding-ID DEB-1501463
@@ -83,78 +76,78 @@ ________________
 @Method SmartScribe reverse transcriptase
 @Method-Type Flanked cDNA with primer sequences
 
-@Software ImageJ
-@Software-Type Individual larval color measurements
-@Software-Note Red Green Blue (RGB) values
-@Software-URI https://imagej.nih.gov/ij/docs/intro.html
+@Code_Ref ImageJ
+@Code_Ref-Type Individual larval color measurements
+@Code_Ref-Note Red Green Blue (RGB) values
+@Code_Ref-URI https://imagej.nih.gov/ij/docs/intro.html
 
-@Software Bowtie2
-@Software-Type Genotype reads adaptor-trimmed, quality filtered and deduplicated
-@Software-Note A per-sample counts file was generated using a custom perl script that sums up reads for all isoforms of a gene while discarding reads mapping to more than one gene.
-@Software-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+@Code_Ref Bowtie2
+@Code_Ref-Type Genotype reads adaptor-trimmed, quality filtered and deduplicated
+@Code_Ref-Note A per-sample counts file was generated using a custom perl script that sums up reads for all isoforms of a gene while discarding reads mapping to more than one gene.
+@Code_Ref-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
-@Software DESeq2
-@Software-Type Size factors and dispersion estimates
-@Software-Version Rv3.1.2
-@Software-Note Used to broadly characterize differences in gene expression through development with the package adegenet and Significance was assessed using the multivariate analysis of variance function, adonis, in the vegan package
-@Software-URI http://dx.doi.org/10.1101/002832
+@Code_Ref DESeq2
+@Code_Ref-Type Size factors and dispersion estimates
+@Code_Ref-Version Rv3.1.2
+@Code_Ref-Note Used to broadly characterize differences in gene expression through development with the package adegenet and Significance was assessed using the multivariate analysis of variance function, adonis, in the vegan package
+@Code_Ref-URI http://dx.doi.org/10.1101/002832
 
-@Software GO_MWU package
-@Software-Type Modules were characterized by Gene Ontology (GO) enrichment
-@Software-Version Rv3.1.2
-@Software-Note Implemented Fishers exact test
-@Software-URI https://github.com/z0on/GO_MWU
+@Code_Ref GO_MWU package
+@Code_Ref-Type Modules were characterized by Gene Ontology (GO) enrichment
+@Code_Ref-Version Rv3.1.2
+@Code_Ref-Note Implemented Fishers exact test
+@Code_Ref-URI https://github.com/z0on/GO_MWU
 
-@Software DESeq2
-@Software-Type Identified genes associated with competence
-@Software-Version  Rv3.1.2
-@Software-URI http://dx.doi.org/10.1101/002832
+@Code_Ref DESeq2
+@Code_Ref-Type Identified genes associated with competence
+@Code_Ref-Version  Rv3.1.2
+@Code_Ref-URI http://dx.doi.org/10.1101/002832
 
-@Software MCMCglmm
-@Software-Type Significance of drug treatment on metamorphosis examination
-@Software-Version 2.32
-@Software-Note Used binomial models associating counts of metamorphosed and swimming larvae with fixed effect of drug/control
-@Software-URI http://dx.doi.org/10.18637/jss.v033.i02
+@Code_Ref MCMCglmm
+@Code_Ref-Type Significance of drug treatment on metamorphosis examination
+@Code_Ref-Version 2.32
+@Code_Ref-Note Used binomial models associating counts of metamorphosed and swimming larvae with fixed effect of drug/control
+@Code_Ref-URI http://dx.doi.org/10.18637/jss.v033.i02
 
-@Data Complex traits in early life stages of Acropora millepora
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/1
-@Data-Type WebP File
-@Data-Size 20KB
+@Data_Ref Complex traits in early life stages of Acropora millepora
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/1
+@Data_Ref-Type WebP File
+@Data_Ref-Size 20KB
 
-@Data Variation in gene expression through development in A. millepora
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/2
-@Data-Type WebP File
-@Data-Size 32KB
+@Data_Ref Variation in gene expression through development in A. millepora
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/2
+@Data_Ref-Type WebP File
+@Data_Ref-Size 32KB
 
-@Data Module eigengene expression across developmental time points and corresponding Gene Ontology (GO) analysis
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/3
-@Data-Type WebP File 
-@Data-Size 59KB
+@Data_Ref Module eigengene expression across developmental time points and corresponding Gene Ontology (GO) analysis
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/3
+@Data_Ref-Type WebP File 
+@Data_Ref-Size 59KB
 
-@Data Candidate receptors and GCPR signaling pathways are associated with settlement, metamorphosis and juvenile morphology
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/4
-@Data-Type WebP File
-@Data-Size 171KB
+@Data_Ref Candidate receptors and GCPR signaling pathways are associated with settlement, metamorphosis and juvenile morphology
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/4
+@Data_Ref-Type WebP File
+@Data_Ref-Size 171KB
 
-@Data Candidate genes associated with competency in A. millepora
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/5
-@Data-Type WebP File
-@Data-Size 37KB
+@Data_Ref Candidate genes associated with competency in A. millepora
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/5
+@Data_Ref-Type WebP File
+@Data_Ref-Size 37KB
 
-@Data Gene expression analysis comparing samples from day 6-12, the ‘continuous’ model
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/6
-@Data-Type WebP File
-@Data-Size 70KB
+@Data_Ref Gene expression analysis comparing samples from day 6-12, the ‘continuous’ model
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/6
+@Data_Ref-Type WebP File
+@Data_Ref-Size 70KB
 
-@Data Fluorescence through early development in A. millepora
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/7
-@Data-Type WebP File
-@Data-Size 24KB
+@Data_Ref Fluorescence through early development in A. millepora
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4392-0/figures/7
+@Data_Ref-Type WebP File
+@Data_Ref-Size 24KB
 
-@Data Full GO results from Fishers exact test of genes in each module
-@Data-Type Xlsx File
-@Data-Size 37KB
+@Data_Copy Full GO results from Fishers exact test of genes in each module
+@Data_Copy-Type Xlsx File
+@Data_Copy-Size 37KB
 
-@Data Gene Ontology enrichment details
-@Data-URI https://github.com/z0on/GO_MWU
-@Data-Type Github
+@Data_Ref Gene Ontology enrichment details
+@Data_Ref-URI https://github.com/z0on/GO_MWU
+@Data_Ref-Type Github
