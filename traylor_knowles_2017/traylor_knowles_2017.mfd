@@ -10,35 +10,31 @@ ________________
 @Journal-Volume 232
 @Journal-Issue 2
 
-@Date 2016-09-26:00:00:00
+@Date 2016-09-26T00:00:00
 @Date-Note Received
 
-@Date 2017-03-30:00:00:00
+@Date 2017-03-30T00:00:00
 @Date-Note Accepted
 
-@Date 2017-05-31:00:00:00
+@Date 2017-05-31T00:00:00
 @Date-Note Published
 
 @Contributor Nikki Traylor-Knowles
 @Contributor-Association University of Miami Rosenstiel School of Marine and Atmospheric Science, 4600 Rickenbacker Causeway, Florida 33149
 @Contributor-Role First Author
 @Contributor-Email ntraylorknowles@rsmas.miami.edu
-@Contributor-Type Individual
 
 @Contributor Noah H. Rose
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, 120 Oceanview Boulevard, Pacific Grove, California 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Elizabeth A. Sheets
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, 120 Oceanview Boulevard, Pacific Grove, California 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Stephen R. Palumbi
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, 120 Oceanview Boulevard, Pacific Grove, California 93950
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Funding National Science Foundation
 @Funding-ID OCE-1323652
@@ -75,68 +71,68 @@ ________________
 @Method Illumina HiSeq 2000 sequencer
 @Method-Type RNA sequencing
 
-@Software Bowtie 2 
-@Software-Type Demultiplexed reads mapping
-@Software-Note de novo gene assembly
-@Software-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
+@Code_Ref Bowtie 2 
+@Code_Ref-Type Demultiplexed reads mapping
+@Code_Ref-Note de novo gene assembly
+@Code_Ref-URI http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
-@Software SAMtools
-@Software-Type Calculate raw gene expression counts
-@Software-Note Tabulated from quality filtered mapped reads
-@Software-URI http://samtools.sourceforge.net
+@Code_Ref SAMtools
+@Code_Ref-Type Calculate raw gene expression counts
+@Code_Ref-Note Tabulated from quality filtered mapped reads
+@Code_Ref-URI http://samtools.sourceforge.net
 
-@Software DESeq2
-@Software-Type Contig average read depth filter
-@Software-Note Normalized for library size
-@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Code_Ref DESeq2
+@Code_Ref-Type Contig average read depth filter
+@Code_Ref-Note Normalized for library size
+@Code_Ref-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
-@Software DESeq2
-@Software-Type Tested for changes in expression over time
-@Software-Note Calculated Log2 fold change (Log2FC) and highest expressed genes at each time point
-@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Code_Ref DESeq2
+@Code_Ref-Type Tested for changes in expression over time
+@Code_Ref-Note Calculated Log2 fold change (Log2FC) and highest expressed genes at each time point
+@Code_Ref-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
-@Software DAVID
-@Software-Type Contig functional enrichment analysis
-@Software-Version v6.8
-@Software-Note Contigs that were significantly differentially expressed were further analyzed
-@Software-URI https://david.ncifcrf.gov/
+@Code_Ref DAVID
+@Code_Ref-Type Contig functional enrichment analysis
+@Code_Ref-Version v6.8
+@Code_Ref-Note Contigs that were significantly differentially expressed were further analyzed
+@Code_Ref-URI https://david.ncifcrf.gov/
 
-@Software BLASTx 
-@Software-Type Tested differentially expressed contigs for functional enrichments
-@Software-Note Tested among the corresponding best BLASTx matches to the UniProt database
-@Software-URI https://david.ncifcrf.gov/
+@Code_Ref BLASTx 
+@Code_Ref-Type Tested differentially expressed contigs for functional enrichments
+@Code_Ref-Note Tested among the corresponding best BLASTx matches to the UniProt database
+@Code_Ref-URI https://david.ncifcrf.gov/
 
-@Data Overall gene expression and DAVID enrichment
-@Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg1.gif
-@Data-Type GIF Image
-@Data-Size 43KB
+@Data_Ref Overall gene expression and DAVID enrichment
+@Data_Ref-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg1.gif
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 43KB
 
-@Data Graph showing several developmental transcription factors responding by 60 min
-@Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg2.gif
-@Data-Type GIF Image
-@Data-Size 50KB
+@Data_Ref Graph showing several developmental transcription factors responding by 60 min
+@Data_Ref-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg2.gif
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 50KB
 
-@Data Graph showing stress transcription factors upregulated by 240 min
-@Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg3.gif
-@Data-Type GIF Image
-@Data-Size 40KB
+@Data_Ref Graph showing stress transcription factors upregulated by 240 min
+@Data_Ref-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg3.gif
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 40KB
 
-@Data Graphical view of heat shock protein 70 (HSP70) proteins upregulated early in heat stress
-@Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg4.gif
-@Data-Type GIF Image
-@Data-Size 39KB
+@Data_Ref Graphical view of heat shock protein 70 (HSP70) proteins upregulated early in heat stress
+@Data_Ref-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg4.gif
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 39KB
 
-@Data Graph showing that retrovirus-related Pol polyprotein from transposon sequences were highly upregulated early in heat stress
-@Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg5.gif
-@Data-Type GIF Image
-@Data-Size 62KB
+@Data_Ref Graph showing that retrovirus-related Pol polyprotein from transposon sequences were highly upregulated early in heat stress
+@Data_Ref-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg5.gif
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 62KB
 
-@Data A model for the early heat stress response
-@Data-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg6.gif
-@Data-Type GIF Image
-@Data-Size 34KB
+@Data_Ref A model for the early heat stress response
+@Data_Ref-URI https://www.journals.uchicago.edu/cms/10.1086/692717/asset/images/medium/fg6.gif
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 34KB
 
-@Data Heat shock profile performed for this experiment
-@Data-URI https://www.journals.uchicago.edu/na101/home/literatum/publisher/uchicago/journals/content/bbl/2017/bbl.2017.232.issue-2/692717/20170626/images/large/fga1.jpeg
-@Data-Type JPEG Image
-@Data-Size 63KB
+@Data_Ref Heat shock profile performed for this experiment
+@Data_Ref-URI https://www.journals.uchicago.edu/na101/home/literatum/publisher/uchicago/journals/content/bbl/2017/bbl.2017.232.issue-2/692717/20170626/images/large/fga1.jpeg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 63KB
