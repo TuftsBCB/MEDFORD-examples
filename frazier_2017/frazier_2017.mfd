@@ -219,7 +219,7 @@ ________________
 @Data_Ref Coral host gene expression profiles of healthy (H), GA-affected (A) and GA-unaffected (U) tissue samples
 @Data_Ref-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig2_HTML.gif?as=webp
 @Data_Ref-Type Webp File
-@DData_Refata-Size 7KB
+@Data_Ref-Size 7KB
 
 @Data_Ref Heat map and clustering dendrograms of differentially expressed coral host genes among tissue types
 @Data_Ref-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig3_HTML.gif?as=webp
