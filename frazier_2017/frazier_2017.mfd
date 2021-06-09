@@ -3,98 +3,80 @@ Last Update 3/17/21
 
 ________________
 
-@Paper De novo metatranscriptome assembly and coral gene expression profile of Montipora capitata with growth anomaly
-@Paper-Link https://doi.org/10.1186/s12864-017-4090-y
+@Paper_Primary De novo metatranscriptome assembly and coral gene expression profile of Montipora capitata with growth anomaly
+@Paper_Primary-Link https://doi.org/10.1186/s12864-017-4090-y
 
 @Journal BMC Genomics
 @Journal-Volume 18
 @Journal-Issue 710
 
-@Date 2017-04-20:00:00:00
+@Date 2017-04-20T00:00:00
 @Date-Note Received
 
-@Date 2017-08-25:00:00:00
+@Date 2017-08-25T00:00:00
 @Date-Note Accepted
 
-@Date 2017-09-11:00:00:00
+@Date 2017-09-11T00:00:00
 @Date-Note Published
 
 @Contributor Monika Frazier
 @Contributor-Association Tropical Conservation Biology and Environmental Science, University of Hawaiʻi at Hilo, 200 West Kāwili Street, Hilo, HI, 96720, USA
 @Contributor-Role First Author
-@Contributor-Type Individual
 
 @Contributor Martin Helmkampf
 @Contributor-Association Tropical Conservation Biology and Environmental Science, University of Hawaiʻi at Hilo, 200 West Kāwili Street, Hilo, HI, 96720, USA
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor M. Renee Bellinger
 @Contributor-Association Tropical Conservation Biology and Environmental Science, University of Hawaiʻi at Hilo, 200 West Kāwili Street, Hilo, HI, 96720, USA
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Scott M. Geib
 @Contributor-Association United States Department of Agriculture, Agriculture Research Service, Daniel K Inouye U.S. Pacific Basin Agricultural Research Center, 64 Nowelo St, Hilo, HI, 96720, USA
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Misaki Takabayashi
 @Contributor-Association Marine Science Department, University of Hawaiʻi at Hilo, 200 West Kāwili Street, Hilo, HI, 96720, USA
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor J. Burns
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor B. Clark
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor E. Clemens
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor D. Jennings-Kam
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor L. Kapono
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor K. Lopes
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor K. Steward
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor J. Stewart
 @Contributor-Note Sample collection
-@Contributor-Type Individual
 
 @Contributor S. Tam
 @Contributor-Note Laboratory and bioinformatic analysis troubleshooting
-@Contributor-Type Individual
 
 @Contributor B. Hall
 @Contributor-Note Laboratory and bioinformatic analysis troubleshooting
-@Contributor-Type Individual
 
 @Contributor T. DeRego
 @Contributor-Note Laboratory and bioinformatic analysis troubleshooting
-@Contributor-Type Individual
 
 @Contributor M. Belcaid
 @Contributor-Note Project guidance
-@Contributor-Type Individual
 
 @Contributor S. Jarvi
 @Contributor-Note Project guidance
-@Contributor-Type Individual
 
 @Funding National Science Foundation
 @Funding-ID EPS-0903833
@@ -141,110 +123,110 @@ ________________
 @Method-Type Strand-specific library construction
 @Method-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4090-y#MOESM1
 
-@Software FastQC
-@Software-Type Raw data sequence quality assessment
-@Software-Version 0.11.4
-@Software-Note Retained 97.8% of read pairs
-@Software-URI https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+@Code_Ref FastQC
+@Code_Ref-Type Raw data sequence quality assessment
+@Code_Ref-Version 0.11.4
+@Code_Ref-Note Retained 97.8% of read pairs
+@Code_Ref-URI https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 
-@Software Trimmomatic
-@Software-Type Raw data sequence quality filter 
-@Software-Version 0.32
-@Software-Note Retained 97.8% of read pairs
-@Software-URI http://www.usadellab.org/cms/index.php?page=trimmomatic
+@Code_Ref Trimmomatic
+@Code_Ref-Type Raw data sequence quality filter 
+@Code_Ref-Version 0.32
+@Code_Ref-Note Retained 97.8% of read pairs
+@Code_Ref-URI http://www.usadellab.org/cms/index.php?page=trimmomatic
 
-@Software Trinity package
-@Software-Type Assembled a metatranscriptome with normalization script
-@Software-Note Putative protein coding regions identified with Trinity TransDecoder plugin
-@Software-URI http://TrinityRNASeq.sourceforge.net
+@Code_Ref Trinity package
+@Code_Ref-Type Assembled a metatranscriptome with normalization script
+@Code_Ref-Note Putative protein coding regions identified with Trinity TransDecoder plugin
+@Code_Ref-URI http://TrinityRNASeq.sourceforge.net
 
-@Software CD-HIT
-@Software-Type Highly similar protein sequence identification
-@Software-Note Similarity cutoff value of 0.9
-@Software-URI http://weizhongli-lab.org/cd-hit/
+@Code_Ref CD-HIT
+@Code_Ref-Type Highly similar protein sequence identification
+@Code_Ref-Note Similarity cutoff value of 0.9
+@Code_Ref-URI http://weizhongli-lab.org/cd-hit/
 
-@Software RSEM
-@Software-Type Low expression protein-coding transcripts filter
-@Software-Note Pooled sample cutoff value of 0.5
-@Software-URI http://deweylab.github.io/RSEM/
+@Code_Ref RSEM
+@Code_Ref-Type Low expression protein-coding transcripts filter
+@Code_Ref-Note Pooled sample cutoff value of 0.5
+@Code_Ref-URI http://deweylab.github.io/RSEM/
 
-@Software InParanoid
-@Software-Type detection of orthologous coral proteins
-@Software-Version 4.1
-@Software-Note Based on reciprocal best hits to reference coral proteomes
-@Software-URI http://inparanoid.sbc.su.se/cgi-bin/index.cgi
+@Code_Ref InParanoid
+@Code_Ref-Type detection of orthologous coral proteins
+@Code_Ref-Version 4.1
+@Code_Ref-Note Based on reciprocal best hits to reference coral proteomes
+@Code_Ref-URI http://inparanoid.sbc.su.se/cgi-bin/index.cgi
 
-@Software BLASTp
-@Software-Type taxonomic annotation of cnidarian proteins
-@Software-URI https://github.com/mojones/Blobsplorer
+@Code_Ref BLASTp
+@Code_Ref-Type taxonomic annotation of cnidarian proteins
+@Code_Ref-URI https://github.com/mojones/Blobsplorer
 
-@Software Blobology
-@Software-Type use of a GC% content cutoff
-@Software-Note Based on observed taxon-specific GC biases
-@Software-URI https://github.com/blaxterlab/blobology
+@Code_Ref Blobology
+@Code_Ref-Type use of a GC% content cutoff
+@Code_Ref-Note Based on observed taxon-specific GC biases
+@Code_Ref-URI https://github.com/blaxterlab/blobology
 
-@Software InParanoid
-@Software-Type Ortholog detection of coral and Symbiodinium proteins
-@Software-Version 8.0
-@Software-Note Based on reciprocal best hits match to the predicted proteome of references
-@Software-URI http://inparanoid.sbc.su.se/cgi-bin/index.cgi
+@Code_Ref InParanoid
+@Code_Ref-Type Ortholog detection of coral and Symbiodinium proteins
+@Code_Ref-Version 8.0
+@Code_Ref-Note Based on reciprocal best hits match to the predicted proteome of references
+@Code_Ref-URI http://inparanoid.sbc.su.se/cgi-bin/index.cgi
 
-@Software edgeR
-@Software-Type Similarity of gene expression profiles visualization
-@Software-Version 3.10.5
-@Software-Note Used default plotMDS function
-@Software-URI http://bioconductor.org
+@Code_Ref edgeR
+@Code_Ref-Type Similarity of gene expression profiles visualization
+@Code_Ref-Version 3.10.5
+@Code_Ref-Note Used default plotMDS function
+@Code_Ref-URI http://bioconductor.org
 
-@Software MAFFT
-@Software-Type Phylogenetic analyses to establish each transcript lineage representation
-@Software-Version 7
-@Software-URI http://mafft.cbrc.jp/alignment/software/
+@Code_Ref MAFFT
+@Code_Ref-Type Phylogenetic analyses to establish each transcript lineage representation
+@Code_Ref-Version 7
+@Code_Ref-URI http://mafft.cbrc.jp/alignment/software/
 
-@Software BLASTp
-@Software-Type Transcript identity and putative function assessment
-@Software-Version 2.3.0
-@Software-Note Search against the National Center for Biotechnology Information non-redundant and Uniprot peptide databases
-@Software-URI https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins
+@Code_Ref BLASTp
+@Code_Ref-Type Transcript identity and putative function assessment
+@Code_Ref-Version 2.3.0
+@Code_Ref-Note Search against the National Center for Biotechnology Information non-redundant and Uniprot peptide databases
+@Code_Ref-URI https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins
 
-@Software HMMER
-@Software-Type Transcript identity and putative function assessment
-@Software-Version v3.1b2
-@Software-Note Search against the Pfam-A database
-@Software-URI http://hmmer.janelia.org
+@Code_Ref HMMER
+@Code_Ref-Type Transcript identity and putative function assessment
+@Code_Ref-Version v3.1b2
+@Code_Ref-Note Search against the Pfam-A database
+@Code_Ref-URI http://hmmer.janelia.org
 
-@Software KEGG GhostKOALA search program
-@Software-Type Transcript identity and putative function assessment
-@Software-URI http://www.kegg.jp/blastkoala/
+@Code_Ref KEGG GhostKOALA search program
+@Code_Ref-Type Transcript identity and putative function assessment
+@Code_Ref-URI http://www.kegg.jp/blastkoala/
 
-@Software Online ZoophyteBase search program
-@Software-Type Transcript identity and putative function assessment
-@Software-URI https://www.genome.jp/kegg/
+@Code_Ref Online ZoophyteBase search program
+@Code_Ref-Type Transcript identity and putative function assessment
+@Code_Ref-URI https://www.genome.jp/kegg/
 
-@Software Blast2GO
-@Software-Type Acquisition of Ontology terms for coral transcripts
-@Software-Note Ran InterProScan as implemented under default parameters
-@Software-URI http://www.blast2go.de
+@Code_Ref Blast2GO
+@Code_Ref-Type Acquisition of Ontology terms for coral transcripts
+@Code_Ref-Note Ran InterProScan as implemented under default parameters
+@Code_Ref-URI http://www.blast2go.de
 
-@Data Descriptive statistics for M. capitata de novo-assembled metatranscriptome, quality filtering criteria and putative coral transcriptome
-@Data-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4090-y/tables/1
-@Data-Type W[a]ebsite
+@Data_Ref Descriptive statistics for M. capitata de novo-assembled metatranscriptome, quality filtering criteria and putative coral transcriptome
+@Data_Ref-URI https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4090-y/tables/1
+@Data_Ref-Type W[a]ebsite
 
-@Data GC content of quality-filtered assembly transcripts by taxon
-@Data-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig1_HTML.gif?as=webp
-@Data-Type Webp File
-@Data-Size 13KB
+@Data_Ref GC content of quality-filtered assembly transcripts by taxon
+@Data_Ref-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig1_HTML.gif?as=webp
+@Data_Ref-Type Webp File
+@Data_Ref-Size 13KB
 
-@Data Coral host gene expression profiles of healthy (H), GA-affected (A) and GA-unaffected (U) tissue samples
-@Data-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig2_HTML.gif?as=webp
-@Data-Type Webp File
-@Data-Size 7KB
+@Data_Ref Coral host gene expression profiles of healthy (H), GA-affected (A) and GA-unaffected (U) tissue samples
+@Data_Ref-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig2_HTML.gif?as=webp
+@Data_Ref-Type Webp File
+@DData_Refata-Size 7KB
 
-@Data Heat map and clustering dendrograms of differentially expressed coral host genes among tissue types
-@Data-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig3_HTML.gif?as=webp
-@Data-Type Webp File
-@Data-Size 34KB
+@Data_Ref Heat map and clustering dendrograms of differentially expressed coral host genes among tissue types
+@Data_Ref-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig3_HTML.gif?as=webp
+@Data_Ref-Type Webp File
+@Data_Ref-Size 34KB
 
-@Data Venn diagram displaying the number and overlap of differentially expressed genes (DEGs)
-@Data-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig4_HTML.gif?as=webp
-@Data-Type Webp File
-@Data-Size 15KB
+@Data_Ref Venn diagram displaying the number and overlap of differentially expressed genes (DEGs)
+@Data_Ref-URI https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12864-017-4090-y/MediaObjects/12864_2017_4090_Fig4_HTML.gif?as=webp
+@Data_Ref-Type Webp File
+@Data_Ref-Size 15KB
