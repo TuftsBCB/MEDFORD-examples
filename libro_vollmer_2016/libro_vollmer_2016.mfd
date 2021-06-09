@@ -3,52 +3,45 @@ Last Update 3/17/21
 
 ________________
 
-@Paper Genetic Signature of Resistance to White Band Disease in the Caribbean Staghorn Coral Acropora cervicornis
-@Paper-Link https://doi.org/10.1371/journal.pone.0146636
+@Paper_Primary Genetic Signature of Resistance to White Band Disease in the Caribbean Staghorn Coral Acropora cervicornis
+@Paper_Primary-Link https://doi.org/10.1371/journal.pone.0146636
 
 @Journal PLoS ONE
 @Journal-Volume 11
 @Journal-Issue 1
 
-@Date 2015-08-26:00:00:00
+@Date 2015-08-26T00:00:00
 @Date-Note Received
 
-@Date 2015-12-20:00:00:00
+@Date 2015-12-20T00:00:00
 @Date-Note Accepted
 
-@Date 2016-01-19:00:00:00
+@Date 2016-01-19T00:00:00
 @Date-Note Published
 
 @Contributor Silvia Libro
 @Contributor-Association Marine Science Center, Northeastern University, 430 Nahant Road, Nahant, Massachusetts, United States of America
 @Contributor-Role First Author
 @Contributor-Email libro.s@husky.neu.edu
-@Contributor-Type Individual
 
 @Contributor Steven V. Vollmer
 @Contributor-Association Marine Science Center, Northeastern University, 430 Nahant Road, Nahant, Massachusetts, United States of America
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor Elizabeth Hemond
 @Contributor-Note Field and logistical support
-@Contributor-Type Individual
 
 @Contributor Carmel Norman
 @Contributor-Note Field and logistical support
-@Contributor-Type Individual
 
 @Contributor Smithsonian Tropical Research Institute
 @Contributor-Note Field and logistical support
-@Contributor-Type Individual
 
 @Contributor Tarik Gouhier
 @Contributor-Note Experimental comments
-@Contributor-Type Individual
 
 @Contributor Gonzalo Giribet
 @Contributor-Note Experimental comments
-@Contributor-Type Individual
 
 @Funding National Science Foundation
 @Funding-ID OCE 0751666
@@ -85,44 +78,44 @@ ________________
 @Method-Type Sequencing Multiplexed paired-end libraries
 @Method-Note Sequenced at FAS Center for System Biology at Harvard University
 
-@Software Perl Scripts in the FASTX-Toolkit
-@Software-Type De-multiplexing, read trimming and thinning
-@Software-Version 0.0.13
-@Software-URI http://hannonlab.cshl.edu/fastx_toolkit/
+@Code_Ref Perl Scripts in the FASTX-Toolkit
+@Code_Ref-Type De-multiplexing, read trimming and thinning
+@Code_Ref-Version 0.0.13
+@Code_Ref-URI http://hannonlab.cshl.edu/fastx_toolkit/
 
-@Software tBLASTx
-@Software-Type Performed functional annotation
-@Software-Note Used an e-value cutoff less than 10-5 against the Swiss-Prot and TReMBL protein databases
-@Software-URI https://doi.org/10.1016/S0022-2836(05)80360-2
+@Code_Ref tBLASTx
+@Code_Ref-Type Performed functional annotation
+@Code_Ref-Note Used an e-value cutoff less than 10-5 against the Swiss-Prot and TReMBL protein databases
+@Code_Ref-URI https://doi.org/10.1016/S0022-2836(05)80360-2
 
-@Software Uniprot
-@Software-Type Gene functions retrieval for the annotated transcripts
-@Software-Note Used to highlight presence of immune related domains or a putative immune role based on the literature
-@Software-URI http://www.uniprot.org
+@Code_Ref Uniprot
+@Code_Ref-Type Gene functions retrieval for the annotated transcripts
+@Code_Ref-Note Used to highlight presence of immune related domains or a putative immune role based on the literature
+@Code_Ref-URI http://www.uniprot.org
 
-@Software DESeq2
-@Software-Type Differential expression analysis
-@Software-Version Rv3.5.2
-@Software-Note Identified coral transcripts that differed significantly in their expression between the two disease resistance phenotypes 
-@Software-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
+@Code_Ref DESeq2
+@Code_Ref-Type Differential expression analysis
+@Code_Ref-Version Rv3.5.2
+@Code_Ref-Note Identified coral transcripts that differed significantly in their expression between the two disease resistance phenotypes 
+@Code_Ref-URI http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
 
-@Software GENE-E
-@Software-Type Visualized differential genotype expression
-@Software-Version Rv1.6.0
-@Software-Note A clustered heat map of the differentially (DE) transcripts was created using log-transformed normalized count data
-@Software-URI https://software.broadinstitute.org/GENE-E/
+@Code_Ref GENE-E
+@Code_Ref-Type Visualized differential genotype expression
+@Code_Ref-Version Rv1.6.0
+@Code_Ref-Note A clustered heat map of the differentially (DE) transcripts was created using log-transformed normalized count data
+@Code_Ref-URI https://software.broadinstitute.org/GENE-E/
 
-@Data Differential expression analyses of RNA-seq data for staghorn coral resistance phenotypes and exposure treatments
-@Data-URI https://doi.org/10.1371/journal.pone.0146636.g002
-@Data-Type TIFF Image
-@Data-Size 269KB
+@Data_Ref Differential expression analyses of RNA-seq data for staghorn coral resistance phenotypes and exposure treatments
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0146636.g002
+@Data_Ref-Type TIFF Image
+@Data_Ref-Size 269KB
 
-@Data Gene expression analysis of resistant (R) and susceptible (S) corals exposed to allogeneic tissue and active White Band Disease (WBD)
-@Data-URI https://doi.org/10.1371/journal.pone.0146636.g003
-@Data-Type TIFF Image
-@Data-Size 1.8MB
+@Data_Ref Gene expression analysis of resistant (R) and susceptible (S) corals exposed to allogeneic tissue and active White Band Disease (WBD)
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0146636.g003
+@Data_Ref-Type TIFF Image
+@Data_Ref-Size 1.8MB
 
-@Data Expression values of significantly differentially expressed transcripts in resistant corals
-@Data-URI https://doi.org/10.1371/journal.pone.0146636.s001
-@Data-Type xlsx file
-@Data-Size 448 KB
+@Data_Ref Expression values of significantly differentially expressed transcripts in resistant corals
+@Data_Ref-URI https://doi.org/10.1371/journal.pone.0146636.s001
+@Data_Ref-Type xlsx file
+@Data_Ref-Size 448 KB
