@@ -3,55 +3,48 @@ Last Update 3/20/21
 
 ________________
 
-@Paper Short Term Exposure to Heat and Sediment Triggers Changes in Coral Gene Expression and Photo-Physiological Performance
-@Paper-Link https://doi.org/10.3389/fmars.2019.00121
+@Paper_Primary Short Term Exposure to Heat and Sediment Triggers Changes in Coral Gene Expression and Photo-Physiological Performance
+@Paper_Primary-Link https://doi.org/10.3389/fmars.2019.00121
 
 @Journal Frontiers in Marine Science
 @Journal-Volume 6
 @Journal-Issue 121
 
-@Date 2018-04-28:00:00:00
+@Date 2018-04-28T00:00:00
 @Date-Note Received
 
-@Date 2019-02-27:00:00:00
+@Date 2019-02-27T00:00:00
 @Date-Note Accepted
 
-@Date 2019-03-19:00:00:00
+@Date 2019-03-19T00:00:00
 @Date-Note Published
 
 @Contributor Rosa Celia Poquita-Du
 @Contributor-Association Experimental Marine Ecology Laboratory, Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role First Author
 @Contributor-Email rcpdu@u.nus.edu
-@Contributor-Type Individual
 
 @Contributor Danwei Huang
 @Contributor-Association Reef Ecology Laboratory, Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Loke Ming Chou
 @Contributor-Association Tropical Marine Science Institute, National University of Singapore, Singapore, Singapore
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Mrinalini
 @Contributor-Association Evolutionary Biology Laboratory, Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Peter A. Todd
 @Contributor-Association Department of Biological Sciences, National University of Singapore, Singapore, Singapore
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor Eslam Osman
 @Contributor-Note Manuscript review
-@Contributor-Type Individual
 
 @Contributor Michael Sweet
 @Contributor-Note Manuscript review
-@Contributor-Type Individual
 
 @Funding National Research Foundation, Singapore Marine Science Research and Development Program
 @Funding-ID MSRDP-P03
@@ -98,75 +91,95 @@ ________________
 @Method Illumina HiSeq 2500 platform
 @Method-Type cDNA libraries pooling and sequencing
 
-@Software dplR
-@Software-Type Examine the effects on coral photo-physiological performance
-@Software-Version R v1.6.0
-@Software-Note Both Fv/Fm and chl a concentration (continuous data) were fitted to linear mixed-effects models
-@Software-URI https://www.r-project.org/
+@Code_Ref dplR
+@Code_Ref-Type Examine the effects on coral photo-physiological performance
+@Code_Ref-Version R v1.6.0
+@Code_Ref-Note Both Fv/Fm and chl a concentration (continuous data) were fitted to linear mixed-effects models
+@Code_Ref-URI https://www.r-project.org/
 
-@Software Trinity
-@Software-Type consolidation of the entire set of transcripts for each genotype
-@Software-Version 2.2.0
-@Software-Note all sequence reads from the same genotype (regardless of experimental treatments) were combined and assembled, de novo
-@Software-URI http://trinityrnaseq.sourceforge.net/
+@Code_Ref Trinity
+@Code_Ref-Type consolidation of the entire set of transcripts for each genotype
+@Code_Ref-Version 2.2.0
+@Code_Ref-Note all sequence reads from the same genotype (regardless of experimental treatments) were combined and assembled, de novo
+@Code_Ref-URI http://trinityrnaseq.sourceforge.net/
 
-@Software Trimmomatic (built-in Trinity tool)
-@Software-Type Quality trimming
-@Software-Note removal of poor-quality reads with Phred quality score < 20, and adapter sequences
-@Software-URI http://trinityrnaseq.sourceforge.net/
+@Code_Ref Trimmomatic (built-in Trinity tool)
+@Code_Ref-Type Quality trimming
+@Code_Ref-Note removal of poor-quality reads with Phred quality score < 20, and adapter sequences
+@Code_Ref-URI http://trinityrnaseq.sourceforge.net/
 
-@Software Transdecoder
-@Software-Type Identify open reading frames
-@Software-Version 3.0.0
-@Software-URI https://github.com/TransDecoder/TransDecoder
+@Code_Ref Transdecoder
+@Code_Ref-Type Identify open reading frames
+@Code_Ref-Version 3.0.0
+@Code_Ref-URI https://github.com/TransDecoder/TransDecoder
 
-@Software CD-HIT
-@Software-Type Redundant transcript sequence removal
-@Software-Note Removed through clustering analysis of transcripts that showed 100% nucleotide sequence similarities for both strands
-@Software-URI http://weizhongli-lab.org/cd-hit/ref.php
+@Code_Ref CD-HIT
+@Code_Ref-Type Redundant transcript sequence removal
+@Code_Ref-Note Removed through clustering analysis of transcripts that showed 100% nucleotide sequence similarities for both strands
+@Code_Ref-URI http://weizhongli-lab.org/cd-hit/ref.php
 
-@Software RNAmmer
-@Software-Type Ribosomal RNA (rRNA) contamination removal
-@Software-Note removed based on nucleotide sequence similarity (blastn, evalue ≤ 1e-5) to curated rRNA data
-@Software-URI http://www.cbs.dtu.dk/services/RNAmmer
+@Code_Ref RNAmmer
+@Code_Ref-Type Ribosomal RNA (rRNA) contamination removal
+@Code_Ref-Note removed based on nucleotide sequence similarity (blastn, evalue ≤ 1e-5) to curated rRNA data
+@Code_Ref-URI http://www.cbs.dtu.dk/services/RNAmmer
 
-@Software CPCe
-@Software-Type Symbiodiniaceae density calculation and normalization
-@Software-Version V4.1
-@Software-Note Measured to coral surface area
-@Software-URI http://www.nova.edu/ocean/cpce/index.html
+@Code_Ref CPCe
+@Code_Ref-Type Symbiodiniaceae density calculation and normalization
+@Code_Ref-Version V4.1
+@Code_Ref-Note Measured to coral surface area
+@Code_Ref-URI http://www.nova.edu/ocean/cpce/index.html
 
-@Software UniProtKB
-@Software-Type Annotate the DEGs
-@Software-Note Annotate significant blastx matches with likely functional profiles [i.e., Gene Ontology (GO) terms]
-@Software-URI http://www.uniprot.org/
+@Code_Ref UniProtKB
+@Code_Ref-Type Annotate the DEGs
+@Code_Ref-Note Annotate significant blastx matches with likely functional profiles [i.e., Gene Ontology (GO) terms]
+@Code_Ref-URI http://www.uniprot.org/
 
-@Data Results from linear mixed-effects model on the effects of different treatments on Fv/Fm and chl a concentration, using control as the reference category (intercept)
-@Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t002.jpg
-@Data-Type JPEG Image
-@Data-Size 94KB
+@Data_Ref Results from linear mixed-effects model on the effects of different treatments on Fv/Fm and chl a concentration, using control as the reference category (intercept)
+@Data_Ref-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t002.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 94KB
 
-@Data Results from generalized linear mixed-effects model on the effects of different treatments on average symbiont density, using control as the reference category (intercept)
-@Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t003.jpg
-@Data-Type GIF Image
-@Data-Size 328KB
+@Data_Ref Results from generalized linear mixed-effects model on the effects of different treatments on average symbiont density, using control as the reference category (intercept)
+@Data_Ref-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t003.jpg
+@Data_Ref-Type GIF Image
+@Data_Ref-Size 328KB
 
-@Data Average levels of maximum quantum yield (Fv/Fm) (A), chl a concentration (B) and, symbiont density (C) for all genotypes and different treatments. Box plots show median values (solid horizontal line), interquartile range (box outline) and highest and lowest extremes (whiskers)
-@Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g002.jpg
-@Data-Type JPEG Image
-@Data-Size 428KB
+@Data_Ref Average levels of maximum quantum yield (Fv/Fm) (A), chl a concentration (B) and, symbiont density (C) for all genotypes and different treatments. Box plots show median values (solid horizontal line), interquartile range (box outline) and highest and lowest extremes (whiskers)
+@Data_Ref-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g002.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 428KB
 
-@Data Summary statistics of de novo assemblies
-@Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t004.jpg
-@Data-Type JPEG Image
-@Data-Size 134KB
+@Data_Ref Summary statistics of de novo assemblies
+@Data_Ref-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-t004.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 134KB
 
-@Data Venn diagram showing overall number of differentially expressed transcripts (DETs) from RNA-Seq analysis
-@Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g003.jpg
-@Data-Type JPEG Image
-@Data-Size 130KB
+@Data_Ref Venn diagram showing overall number of differentially expressed transcripts (DETs) from RNA-Seq analysis
+@Data_Ref-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g003.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 130KB
 
-@Data Heat map showing functional categories based on UniProtKB, gene IDs and expression patterns [lowest fold change (FC) in blue to highest FC in red] of differentially expressed genes
-@Data-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g004.jpg
-@Data-Type JPEG Image
-@Data-Size 169KB
+@Data_Ref Heat map showing functional categories based on UniProtKB, gene IDs and expression patterns [lowest fold change (FC) in blue to highest FC in red] of differentially expressed genes
+@Data_Ref-URI https://www.frontiersin.org/files/Articles/365214/fmars-06-00121-HTML-r1/image_m/fmars-06-00121-g004.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 169KB
+
+@Data_Copy Pairwise comparisons among sequence-aligned transcripts matching to the same protein
+@Data_Copy-Type Xls file
+@Data_Copy-Size 33KB
+
+@Data_Copy Sequencing statistics for each cDNA library
+@Data_Copy-Type Xls file
+@Data_Copy-Size 976KB
+
+@Data_Copy Summary of results for empirical analysis of differential gene expression
+@Data_Copy-Type Xls file
+@Data_Copy-Size 329KB
+
+@Data_Copy Overall list of differentially expressed transcripts
+@Data_Copy-Type Xls file
+@Data_Copy-Size 40KB
+
+@Data_Copy Differentially-expressed genes across treatments and genotypes
+@Data_Copy-Type Xls file
+@Data_Copy-Size 72KB
