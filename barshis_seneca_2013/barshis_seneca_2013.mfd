@@ -3,72 +3,61 @@ Last Update 3/20/21
 
 ________________
 
-@Paper Genomic basis for coral resilience to climate change
-@Paper-Link https://doi.org/10.1073/pnas.1210224110
+@Paper_Primary Genomic basis for coral resilience to climate change
+@Paper_Primary-Link https://doi.org/10.1073/pnas.1210224110
 
 @Journal Proceedings of the National Academy of Sciences
 @Journal-Volume 110
 @Journal-Issue 4
 
-@Date 2012-06-15:00:00:00
+@Date 2012-06-15T00:00:00
 @Date-Note Received
 
-@Date 2012-11-30:00:00:00
+@Date 2012-11-30T00:00:00
 @Date-Note Accepted
 
-@Date 2013-01-22:00:00:00
+@Date 2013-01-22T00:00:00
 @Date-Note Published
 
 @Contributor Daniel J. Barshis
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role First Author
 @Contributor-Email barshis@gmail.com
-@Contributor-Type Individual
 
 @Contributor Jason T. Ladner
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Thomas A. Oliver
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor François O. Seneca
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Nikki Traylor-Knowles
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Author
-@Contributor-Type Individual
 
 @Contributor Stephen R. Palumbi
 @Contributor-Association Department of Biology, Hopkins Marine Station, Stanford University, Pacific Grove, CA 93950
 @Contributor-Role Last Author
-@Contributor-Type Individual
 
 @Contributor P. Craig
 @Contributor-Note Field site access and logistical help
-@Contributor-Type Individual
 
 @Contributor T. Clark
 @Contributor-Note Field site access and logistical help
-@Contributor-Type Individual
 
 @Contributor C. Caruso
 @Contributor-Note Field site access and logistical help
-@Contributor-Type Individual
 
 @Contributor T. Waterson
 @Contributor-Note Field assistance
-@Contributor-Type Individual
 
 @Contributor C.S. McKeon
 @Contributor-Note Field assistance
-@Contributor-Type Individual
 
 @Funding Gordon and Betty Moore Foundation
 
@@ -96,63 +85,63 @@ ________________
 @Method Micro-FastTrack mRNA isolation kit
 @Method-Type mRNA isolation
 
-@Software FASTX-Toolkit
-@Software-Type Raw sequences poor-quality portion trimming
-@Software-Note Used to remove any potential adapter sequences
-@Software-URI http://hannonlab.cshl.edu/fastx_toolkit/
+@Code_Ref FASTX-Toolkit
+@Code_Ref-Type Raw sequences poor-quality portion trimming
+@Code_Ref-Note Used to remove any potential adapter sequences
+@Code_Ref-URI http://hannonlab.cshl.edu/fastx_toolkit/
 
-@Software CLC Genomics Workbench
-@Software-Type de novo assembly
-@Software-Version 4
-@Software-Note Included only the sequence libraries with ≥95% of a single Symbiodinium clade
-@Software-URI dx.doi.org/10.5061/dryad.bc0v0
+@Code_Ref CLC Genomics Workbench
+@Code_Ref-Type de novo assembly
+@Code_Ref-Version 4
+@Code_Ref-Note Included only the sequence libraries with ≥95% of a single Symbiodinium clade
+@Code_Ref-URI dx.doi.org/10.5061/dryad.bc0v0
 
-@Software Uniprot
-@Software-Type Aligned final list of putatively coral, metaassembled contigs
-@Software-URI www.uniprot.org
+@Code_Ref Uniprot
+@Code_Ref-Type Aligned final list of putatively coral, metaassembled contigs
+@Code_Ref-URI www.uniprot.org
 
-@Software Burrow’sWheeler aligner (BWA)
-@Software-Type Sequence data mapping
-@Software-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
-@Software-URI http://bio-bwa.sourceforge.net/bwa.shtml
+@Code_Ref Burrow’sWheeler aligner (BWA)
+@Code_Ref-Type Sequence data mapping
+@Code_Ref-Note combined assembly was used as a mapping reference to avoid taxonomical misassignment of individual reads
+@Code_Ref-URI http://bio-bwa.sourceforge.net/bwa.shtml
 
-@Software Picard
-@Software-Type Duplicate read identification
-@Software-Version v1.43
-@Software-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
-@Software-URI https://broadinstitute.github.io/picard/
+@Code_Ref Picard
+@Code_Ref-Type Duplicate read identification
+@Code_Ref-Version v1.43
+@Code_Ref-Note read counts for each contig were compiled from .SAM files for uniquely, well-mapped, nonduplicate reads using a custom python script
+@Code_Ref-URI https://broadinstitute.github.io/picard/
 
-@Software DESeq
-@Software-Type Sequencing data normalization
-@Software-Version R v3.5.2
-@Software-Note Used reads per kilobase per million reads (RPKM) normalization method
-@Software-URI http://www.bioconductor.org/
+@Code_Ref DESeq
+@Code_Ref-Type Sequencing data normalization
+@Code_Ref-Version R v3.5.2
+@Code_Ref-Note Used reads per kilobase per million reads (RPKM) normalization method
+@Code_Ref-URI http://www.bioconductor.org/
 
-@Software pvclust function in R
-@Software-Type Hierarchical clustering performance 
-@Software-Version R v3.0-8
-@Software-URI https://cran.r-project.org/
+@Code_Ref pvclust function in R
+@Code_Ref-Type Hierarchical clustering performance 
+@Code_Ref-Version R v3.0-8
+@Code_Ref-URI https://cran.r-project.org/
 
-@Software GOEAST
-@Software-Type Determination of statistically overrepresented GO categories
-@Software-Note Determined using default statistical tests and multiple-testing adjustments
-@Software-URI http://omicslab.genetics.ac.cn/GOEAST/
+@Code_Ref GOEAST
+@Code_Ref-Type Determination of statistically overrepresented GO categories
+@Code_Ref-Note Determined using default statistical tests and multiple-testing adjustments
+@Code_Ref-URI http://omicslab.genetics.ac.cn/GOEAST/
 
-@Data Venn diagram showing the number of differentially expressed genes detected during analysis based on temperature, location, within-location temperature response, and within-treatment location differences
-@Data-URI https://www.pnas.org/content/pnas/110/4/1387/F2.large.jpg
-@Data-Type JPEG Image
-@Data-Size 95KB
+@Data_Ref Venn diagram showing the number of differentially expressed genes detected during analysis based on temperature, location, within-location temperature response, and within-treatment location differences
+@Data_Ref-URI https://www.pnas.org/content/pnas/110/4/1387/F2.large.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 95KB
 
-@Data Scatterplot of the log2 fold changes in gene expression in response to heat stress in the MV corals vs. the HV corals for the 169 genes that were unique to the MV control vs. heated comparison
-@Data-URI https://www.pnas.org/content/pnas/110/4/1387/F3.large.jpg
-@Data-Type JPEG Image
-@Data-Size 78KB
+@Data_Ref Scatterplot of the log2 fold changes in gene expression in response to heat stress in the MV corals vs. the HV corals for the 169 genes that were unique to the MV control vs. heated comparison
+@Data_Ref-URI https://www.pnas.org/content/pnas/110/4/1387/F3.large.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 78KB
 
-@Data Scatterplot comparing the relative ratio of heat-to-control fold changes in expression between HV and MV corals
-@Data-URI https://www.pnas.org/content/pnas/110/4/1387/F4.large.jpg
-@Data-Type JPEG Image
-@Data-Size 77KB
+@Data_Ref Scatterplot comparing the relative ratio of heat-to-control fold changes in expression between HV and MV corals
+@Data_Ref-URI https://www.pnas.org/content/pnas/110/4/1387/F4.large.jpg
+@Data_Ref-Type JPEG Image
+@Data_Ref-Size 77KB
 
-@Data Supporting Data Figures
-@Data-URI https://www.pnas.org/content/pnas/suppl/2013/01/02/1210224110.DCSupplemental/pnas.201210224SI.pdf?targetid=nameddest%3DST1
-@Data-Type xlsx file
+@Data_Ref Supporting Data Figures
+@Data_Ref-URI https://www.pnas.org/content/pnas/suppl/2013/01/02/1210224110.DCSupplemental/pnas.201210224SI.pdf?targetid=nameddest%3DST1
+@Data_Ref-Type xlsx file
