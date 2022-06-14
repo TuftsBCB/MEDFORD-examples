@@ -180,7 +180,7 @@
 @Data_Ref-URI https://github.com/michaeltconnelly/EAPSI_Pocillopora_LPS
 @Data_Ref-Filename scripts/
 
-# If this were our own paper, these would be @Data_Copy -s and we would provide the file
+# If this were our own paper, these would be @Data_Copy and we would provide the file
 #   alongside the MEDFORD file. We shouldn't be hard linking to the journal resources online.
 @Data_Ref DESeq2 results: LPS vs. Control Volcano Plot and PCA Plot
 @Data_Ref-Type JPG
@@ -208,19 +208,23 @@
 @Data_Ref-Filename 1-s2.0-S0145305X20300094-gr3_lrg.jpg
 @Data_Ref-Size 432 KB
 
-@Data_Copy Coral collection sites in Kenting National Park
-@Data_Copy-Type PDF 
-@Data_Copy-Path 1-s2.0-S0145305X20300094-mmc1.pdf
-@Data_Copy-Size 81 MB
+@Data_Ref Coral collection sites in Kenting National Park
+@Data_Ref-Type PDF 
+@Data_Ref-URI https://ars.els-cdn.com/content/image/1-s2.0-S0145305X20300094-mmc1.pdf
+@Data_Ref-Filename 1-s2.0-S0145305X20300094-mmc1.pdf
+@Data_Ref-Size 81 MB
 
-@Data_Copy cDNA Library Sequencing read depth results
-@Data_Copy-Type Excel
-@Data_Copy-Path 1-s2.0-S0145305X20300094-mmc2.xlsx
+@Data_Ref cDNA Library Sequencing read depth results
+@Data_Ref-Type Excel
+@Data_Ref-URI https://ars.els-cdn.com/content/image/1-s2.0-S0145305X20300094-mmc2.xlsx
+@Data_Ref-Filename 1-s2.0-S0145305X20300094-mmc2.xlsx
 
-@Data_Copy Identified upregulated DEG with Function Information
-@Data_Copy-Type Excel
-@Data_Copy-Path 1-s2.0-S0145305X20300094-mmc3.xlsx
+@Data_Ref Identified upregulated DEG with Function Information
+@Data_Ref-Type Excel
+@Data_Ref-URI https://ars.els-cdn.com/content/image/1-s2.0-S0145305X20300094-mmc3.xlsx
+@Data_Ref-Filename 1-s2.0-S0145305X20300094-mmc3.xlsx
 
-@Data_Copy Indentified upregulated DEG with Gentype Specifitiy Information
-@Data_Copy-Type Excel
-@Data_Copy-Path 1-s2.0-S0145305X20300094-mmc4.xlsx
+@Data_Ref Indentified upregulated DEG with Gentype Specifitiy Information
+@Data_Ref-Type Excel
+@Data_Ref-URI https://ars.els-cdn.com/content/image/1-s2.0-S0145305X20300094-mmc4.xlsx
+@Data_Ref-Filename 1-s2.0-S0145305X20300094-mmc4.xlsx
